@@ -20,7 +20,7 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "Who Are We? | Tikal"
 
 			# The website description (for SEO)
 			description: """

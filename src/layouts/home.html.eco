@@ -56,7 +56,7 @@
     <meta content="Who Are We?" about="/content/who-are-we" property="dc:title" />
     <meta about="/content/who-are-we" property="sioc:num_replies" content="0" datatype="xsd:integer" />
 
-    <title>Who Are We? | Tikal</title>
+    <title><%= @getPreparedTitle() %></title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="http://tikalk.com/sites/default/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
     <link type="text/css" rel="stylesheet" href="http://tikalk.com/sites/default/files/css/css_7P45jZGFQxhQmHfndoYns-_XN1bLVmGS69c8hsLtx8s.css" media="all" />
