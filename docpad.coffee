@@ -58,6 +58,10 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
+		getTeamMember: (pathName) ->
+			allTeam = require('/files/data/team.json')
+			allTeam[pathName]
+
 		getGruntedStyles: ->
 			_ = require 'underscore'
 			styles = []

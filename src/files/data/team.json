@@ -1,0 +1,244 @@
+
+{
+	"java/adi": {
+		"active": true,
+		"highlighted": false,
+		"bio": "Over 18 years of experience. Specializes in Enterprise Application Design, Analysis and Development, Cloud Computing, Horizontal Scale, and Big Data.",
+		"email": "sample@person.com",
+		"github": "sampleperson",
+		"image": {
+			  "url": "adi-baron.jpg",
+			  "title": "Adi Baron",
+			  "alt": "Adi Baron",
+			  "attribution": ""
+			},
+		"layout": "profile",
+		"linkedin": "lai",
+		"name": "Adi Baron",
+		"role": "Java and JS Architect",
+		"type": "employee",
+		"website": "http://tikalk.com/java/adi",
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience."
+	},
+	"java/andrew": {
+		"active": true,
+		"highlighted": true,
+		"bio": "Over 17 years of experience in the software industry, has vast experience in Java Server development, in technologies such as Spring, Hibernate, EJB3 etc.",
+		"email": "sample@person.com",
+		"github": "sampleperson",
+		"image": {
+		  "url": "andrew-skiba.png",
+		  "title": "Andrew Skiba",
+		  "alt": "Andrew Skiba",
+		  "attribution": ""
+		},
+		"layout": "profile",
+		"linkedin": "lai",
+		"name": "Andrew Skiba",
+		"role": "Java Architect",
+		"type": "employee",
+		"website": "http://tikalk.com/java/andrew",
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience."
+	},
+	"js/assafg": {
+		"active": true,
+		"highlighted": false,
+		"bio": "Over 10 years working on start-ups in the gaming industry and SaaS projects, senior level engineer with vast experience in end-to-end system development. Hands...",
+		"email": "sample@person.com",
+		"github": "sampleperson",
+		"image":{
+		  "url": "assaf-gannon.jpg",
+		  "title": "Assaf Gannon",
+		  "alt": "Assaf Gannon",
+		  "attribution":""
+		  },
+		"layout": "profile",
+		"linkedin": "lai",
+		"name": "Assaf Gannon",
+		"role": "Java and JS Architect",
+		"type": "employee",
+		"website": "http://tikalk.com/js/assafg",
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience."
+	},
+	"ror/avit" : {
+		"website": "http://tikalk.com/ror/avit", 
+		"bio": "Working on a full blown website with Ruby on rails as a framework, managing servers and databases, deploying to a number of servers etc.", 
+		"github": "sampleperson", 
+		"layout": "profile", 
+		"name": "Avi Tzurel", 
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience.", 
+		"image": {
+			"url": "avi-tzurel.jpg", 
+			"alt": "Avi Tzurel", 
+			"attribution": null, 
+			"title": "Avi Tzurel"
+		}, 
+		"linkedin": "lai", 
+		"highlighted": false, 
+		"role": "RoR Architect", 
+		"active": true, 
+		"type": "employee", 
+		"email": "sample@person.com"
+	},
+	"alm/itai": {
+		"website": "http://tikalk.com/alm/itai", 
+		"bio": "Over 12 years of experience in the software industry, has vast experience in developing Java server applications, Build systems using tools such as Jenkins, Maven, Nexus etc.", 
+		"github": "sampleperson", 
+		"ctive": true, 
+		"name": "Itai Or", 
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience.", 
+		"image": {
+			"url": "itai-or.jpg", 
+			"alt": "Itai Or", 
+			"attribution": null, 
+			"title": "Itai Or"
+		}, 
+		"linkedin": "lai", 
+		"highlighted": true, 
+		"role": "ALM Architect", 
+		"layout": "profile", 
+		"type": "employee", 
+		"email": "sample@person.com"
+	},
+	"incubator/liorb": {
+		"website": "http://tikalk.com/incubator/liorb", 
+		"bio": "Over 15 years of experience in the software industry.", 
+		"github": "sampleperson", 
+		"layout": "profile", 
+		"name": "Lior Boord", 
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience.", 
+		"image": {
+			"url": "lior-boord.jpg", 
+			"alt": "Lior Boord", 
+			"attribution": null, 
+			"title": "Lior Boord"
+		}, 
+		"linkedin": "lai", 
+		"highlighted": false, 
+		"role": "Python and Flex Developer", 
+		"active": true, 
+		"type": "employee", 
+		"email": "sample@person.com"
+	},
+	"java/liorkanfi":{
+		"website": "http://tikalk.com/java/liorkanfi", 
+		"bio": "Over 20 years of experience in the high tech industry as software development entrepreneur, supporter of emerging open source technologies and programing languages.", 
+		"github": "sampleperson", 
+		"layout": "profile", 
+		"name": "Lior Kanfi", 
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience.", 
+		"image": {
+			"url": "lior-kanfi.jpg", 
+			"alt": "Lior Kanfi", 
+			"attribution": null, 
+			"title": "Lior Kanfi"
+		}, 
+		"linkedin": "lai", 
+		"highlighted": true, 
+		"role": "Founder and CEO", 
+		"active": true, 
+		"type": "employee", 
+		"email": "sample@person.com"
+	},
+	"alm/liya": {
+		"website": "http://tikalk.com/alm/liya", 
+		"bio": "Over 10 years of experience in the software industry, design, development and deployment of configuration management and development based on open source tools.", 
+		"github": "sampleperson", 
+		"layout": "profile", 
+		"name": "Liya Katz", 
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience.", 
+		"image": {
+			"url": "liya-katz.jpg", 
+			"alt": "Liya Katz", 
+			"attribution": null, 
+			"title": "Liya Katz"
+		}, 
+		"linkedin": "lai", 
+		"highlighted": true, 
+		"role": "ALM Architect", 
+		"active": true, 
+		"type": "employee", 
+		"email": "sample@person.com"
+	},
+	"net/menny":{
+		"website": "http://tikalk.com/net/menny", 
+		"bio": "Over 10 years of experience in the software industry, design, development and deployment of configuration management and development based on open source tools.", 
+		"github": "sampleperson", 
+		"layout": "profile", 
+		"name": "Menny Rachmanny", 
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience.", 
+		"image": {
+			"url": "menny-rachmanny.jpg", 
+			"alt": "Menny Rachmanny", 
+			"attribution": null, 
+			"title": "Menny Rachmanny"
+		}, 
+		"linkedin": "lai", 
+		"highlighted": true, 
+		"role": ".NET Architect", 
+		"active": true, 
+		"type": "employee", 
+		"email": "sample@person.com"
+	},
+	"js/orenf": {
+		"website": "http://tikalk.com/js/orenf", 
+		"bio": "Over 10 years of experience in the software industry, design, development and deployment of configuration management and development based on open source tools.", 
+		"github": "sampleperson", 
+		"layout": "profile", 
+		"name": "Oren Farhi", 
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience.", 
+		"image": {
+			"url": "oren-farhi.jpg", 
+			"alt": "Oren Farhi", 
+			"attribution": null, 
+			"title": "Oren Farhi"
+		}, 
+		"linkedin": "lai", 
+		"highlighted": true, 
+		"role": "JS Engineer", 
+		"active": true, 
+		"type": "employee", 
+		"email": "sample@person.com"
+	},
+	"js/sefi": {
+		"website": "http://tikalk.com/js/sefi", 
+		"bio": "Over 15 years of experience in the software industry, design and development of client using Flex/AS3, GWT and JS/JQuery/Angular.", 
+		"github": "sampleperson", 
+		"layout": "profile", 
+		"name": "Sefi Ninio", 
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience.", 
+		"image": {
+			"url": "sefi-ninio.jpg", 
+			"alt": "Sefi Ninio", 
+			"attribution": null, 
+			"title": "Sefi Ninio"
+		}, 
+		"linkedin": "lai", 
+		"highlighted": true, 
+		"role": "UI Architect", 
+		"active": true, 
+		"type": "employee", 
+		"email": "sample@person.com"
+	},
+	"java/yanai": {
+		"website": "http://tikalk.com/java/yanai", 
+		"bio": "Over 12 years of experience in the software industry, has a vast experience in the Java Server architecture, in technologies such as Hibernate , Spring , EJB3 and much more.", 
+		"github": "sampleperson", 
+		"layout": "profile", 
+		"name": "Yanai Franchi", 
+		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience.", 
+		"twitter": "sampleperson", 
+		"linkedin": "lai", 
+		"email": "sample@person.com", 
+		"highlighted": true, 
+		"role": "Java Architect", 
+		"active": true, 
+		"type": "employee", 
+		"image": {
+			"url": "yanai-franchi.jpg", 
+			"alt": "Yanai Franchi", 
+			"attribution": null, 
+			"title": "Yanai Franchi"
+		}
+	}
+}
