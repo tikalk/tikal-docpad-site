@@ -1,20 +1,25 @@
 {
-  "min": {
+  "uglify": {
     "js": {
-      "src": ["out/vendor/jquery.js", "out/vendor/log.js", "out/vendor/modernizr.js", "out/scripts/script.js"],
-      "dest": "out/scripts/all.min.js"
+      "files":{
+          "out/scripts/all.min.js": ["out/vendor/jquery.js", "out/vendor/log.js", "out/vendor/modernizr.js", "out/scripts/script.js"]
+      }
     }
   },
   "concat": {
-    "css": {
-      "src": ["out/vendor/normalize.css","out/styles/style.css"],
-      "dest": "out/styles/all.css"
-    }
+      "options": {
+          "separator": ";"
+      },
+      "dist": {
+          "src": ["out/vendor/normalize.css","out/styles/style.css"],
+          "dest": "out/styles/all.css"
+      }
   },
   "cssmin": {
     "all": {
-      "src": ["out/styles/all.css"],
-      "dest": "out/styles/all.min.css"
+      "files":{
+          "out/styles/all.min.css": ["out/styles/all.css"]
+      }
     }
   }
 }
