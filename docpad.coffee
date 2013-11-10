@@ -8,7 +8,6 @@ docpadConfig = {
 	# To access one of these within our templates, refer to the FAQ: https://github.com/bevry/docpad/wiki/FAQ
 
 	templateData:
-
 		# Specify some site properties
 		site:
 			# The production url of our website
@@ -21,7 +20,7 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "Who Are We? | Tikal"
 
 			# The website description (for SEO)
 			description: """
@@ -32,7 +31,6 @@ docpadConfig = {
 			keywords: """
 				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
 				"""
-
 
 		# -----------------------------
 		# Helper Functions
@@ -63,26 +61,10 @@ docpadConfig = {
 			allTeam[pathName]
 
 		getGruntedStyles: ->
-			_ = require 'underscore'
-			styles = []
-			gruntConfig = require('./grunt-config.json')
-			_.each gruntConfig, (value, key) ->
-				styles = styles.concat _.flatten _.pluck value, 'dest'
-			styles = _.filter styles, (value) ->
-				return value.indexOf('.min.css') > -1
-			_.map styles, (value) ->
-				return value.replace 'out', ''
+      "/styles/all.css"
 
 		getGruntedScripts: ->
-			_ = require 'underscore'
-			scripts = []
-			gruntConfig = require('./grunt-config.json')
-			_.each gruntConfig, (value, key) ->
-				scripts = scripts.concat _.flatten _.pluck value, 'dest'
-			scripts = _.filter scripts, (value) ->
-				return value.indexOf('.min.js') > -1
-			_.map scripts, (value) ->
-				return value.replace 'out', ''
+      "/scripts/all.min.js"
 
 
 	# =================================
