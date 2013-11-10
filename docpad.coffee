@@ -57,7 +57,7 @@ docpadConfig = {
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
 		getTeamMember: (pathName) ->
-			allTeam = require('/files/data/team.json')
+			allTeam = require('./src/files/data/team.json')
 			allTeam[pathName]
 
 		getGruntedStyles: ->
