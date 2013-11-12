@@ -9,7 +9,7 @@ docpadConfig = {
         site: {
             url: "http://www.tikalk.com",
             oldUrls: ['www.website.com', 'website.herokuapp.com'],
-            title: "Who Are We? | Tikal",
+            title: "Tikal",
             description: "When your website appears in search results in say Google, the text here will be shown underneath your website's title.",
             keywords: "place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website"
         },
