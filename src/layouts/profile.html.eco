@@ -1,0 +1,920 @@
+<% member = @getTeamMember(@document.memberPath) %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN"
+"http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"><!--[if lte IE 7 ]><html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js ie7 lte-ie9 lte-ie8"><![endif]-->
+                     <!--[if IE 8 ]><html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js ie8 lte-ie9 lte-ie8"><![endif]-->
+                     <!--[if IE 9 ]><html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js ie9 lte-ie9"><![endif]-->
+                     <!--[if gt IE 9]><!--> <html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js"> <!--<![endif]--><head profile="http://www.w3.org/1999/xhtml/vocab">
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script><link rel="shortcut icon" href="http://www.tikalk.com/sites/all/themes/sasson/tikal/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta about="/js/orenf#me" typeof="foaf:Person" rel="foaf:account" resource="/js/orenf" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta about="/js/orenf" property="foaf:name" content="orenf" />
+
+  <title><%= @getPreparedTitle() %></title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" href="http://www.tikalk.com/sites/default/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.tikalk.com/sites/default/files/css/css_7P45jZGFQxhQmHfndoYns-_XN1bLVmGS69c8hsLtx8s.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.tikalk.com/sites/default/files/css/css_pRm8U5y2aFxiSHHWwrZ_6vxeWUKYNJNTlB4CHU_AsnY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" media="all" />
+  <script type="text/javascript" src="http://www.tikalk.com/sites/default/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="http://www.tikalk.com/sites/default/files/js/js_ucOirI2XtUCy4uPf82BrgusGllBd_wA4FWlf6Cp5hJA.js"></script>
+<script type="text/javascript" src="http://www.tikalk.com/sites/default/files/js/js_nCQKhabtBFC3f3KwRZ7Erw9W0fbKqfY-atbn6zW4n1w.js"></script>
+<script type="text/javascript" src="http://www.tikalk.com/sites/default/files/js/js_65SgCtb7LXBiyMmSf5_Q3trrTwvSA58RSb0cigCdZYM.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-1365497-6"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function () {
+			var labels = jQuery(".field-label");
+			jQuery.each(labels, function() {
+				this.innerHTML = this.innerHTML.replace(":", "");
+			});
+			var labels = jQuery(".double-field-first");
+			jQuery.each(labels, function() {
+				this.innerHTML = this.innerHTML.replace(":", "");
+			});
+		});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.tikalk.com/sites/default/files/js/js_novAodeiiGn95u1GSUMWJEaqoui-G8aH6D2Ouvxt39M.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"tikal","theme_token":"XpGyq0wLKKyrPSKfyvo9s6ZlfDY_q6IUswVOPQQe9pE","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.effects.core.min.js":1,"misc\/jquery.cookie.js":1,"misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/back_to_top\/js\/back_to_top.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/plain\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/webform_conditional\/webform_conditional.js":1,"misc\/progress.js":1,"modules\/file\/file.js":1,"sites\/all\/modules\/contrib\/webform\/js\/webform.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"1":1,"sites\/all\/themes\/sasson\/scripts\/sasson.js":1,"sites\/all\/themes\/sasson\/tikal\/scripts\/jquery.scrollTo-1.4.3.1-min.js":1,"sites\/all\/themes\/sasson\/tikal\/scripts\/jquery.autoellipsis-1.0.10.min.js":1,"sites\/all\/themes\/sasson\/tikal\/scripts\/tikal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/themes\/sasson\/styles\/reset\/normalize.css":1,"sites\/all\/modules\/contrib\/back_to_top\/css\/back_to_top.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/themes\/sasson\/styles\/sasson.scss":1,"sites\/all\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/plain\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/linkedin\/linkedin_auth\/linkedin_auth.css":1,"sites\/all\/modules\/contrib\/linkedin\/linkedin_profile\/linkedin_profile.css":1,"sites\/all\/modules\/contrib\/linkedin\/linkedin_status\/linkedin_status.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"modules\/file\/file.css":1,"sites\/all\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/all\/themes\/sasson\/tikal\/styles\/tikal.scss":1,"sites\/all\/themes\/sasson\/tikal\/styles\/tikal-css.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans":1}},"back_to_top":{"back_to_top_button_trigger":"100","back_to_top_prevent_on_mobile":1,"back_to_top_prevent_in_admin":1,"back_to_top_button_type":"image"},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"webform_conditional":{"fields":false,"nid":"22","showSpeed":null},"file":{"elements":{"#edit-submitted-click-to-add-your-cv-upload":"txt,rtf,html,odf,pdf,doc,docx,ppt"}},"ajax":{"edit-submitted-click-to-add-your-cv-upload-button":{"wrapper":"edit-submitted-click-to-add-your-cv-ajax-wrapper","effect":"fade","progress":{"type":"throbber","message":null},"event":"mousedown","keypress":true,"prevent":"click","url":"\/file\/ajax\/submitted\/click_to_add_your_cv\/form-FxAH5gPrMDWViswRWBWEbKHaNVzYmcn3zLlpLhCyWWA","submit":{"_triggering_element_name":"submitted_click_to_add_your_cv_upload_button","_triggering_element_value":"Upload"}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+  
+    <!--[if lt IE 9]><script src="/sites/all/themes/sasson/scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-user page-user- page-user-87 all-pages section-profile with-navigation with-subnav dir-ltr page-orenf section-js" >
+  
+    <!--[if lte IE 7 ]>
+      <p class='chromeframe'>Your browser is <em>ancient!</em> <a href='http://browsehappy.com/'>Upgrade to a different browser</a> or <a href='http://www.google.com/chromeframe/?redirect=true'>install Google Chrome Frame</a> to experience this site.</p>
+    <![endif]-->
+    
+     <%- @partial('header', @) %>
+    <div class="featured-background">
+    <div id="featured" 
+		>
+	<div class="region-title-and-featured">
+	   	   	  
+ 	     		  			<h1 class="title" id="page-title"><%= member.name %></h1>
+  		  
+	    	 
+	   
+	 	   
+			<div class="user-profile-filed-about">
+      <%= member.bio %>
+			</div>
+	    	</div><!-- /#region-title-and-featured -->
+    </div><!-- /#featured -->
+   </div><!-- /.featured-background -->
+<div class="shadow-page"></div><!-- /.shadow-page -->
+<div id="page"> 
+
+    <div id="main">
+                    
+          <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-even">
+      
+  <div class="content">
+    <div class="profile" typeof="sioc:UserAccount" about="/js/orenf">
+    <div class="user-picture">
+    <a href="/js/orenf" title="View user profile." class="active"><img typeof="foaf:Image" src="http://www.tikalk.com/sites/default/files/styles/article-author/public/pictures/picture-87-1361229255.jpg?itok=YXmNq966" width="307" height="230" alt="orenf&#039;s picture" title="orenf&#039;s picture" /></a>  </div>
+<!--
+THIS FILE IS NOT USED AND IS HERE AS A STARTING POINT FOR CUSTOMIZATION ONLY.
+See http://api.drupal.org/api/function/theme_field/7 for details.
+After copying this file to your theme's folder and customizing it, remove this
+HTML comment.
+-->
+<div class="field field-name-field-about field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item  field-item-1 even">Over 5 years of experience in the software industry, has vast experience in UI design and development, in technologies such as core JavaScript, HTML, CSS and more.</div>
+      </div>
+</div>
+
+</div>
+  </div><!-- /.content -->
+</div><!-- /.block -->
+<div id="block-views-employee-skills-block" class="block block-views block-odd">
+      
+  <div class="content">
+    <?/**
+ * @file
+ * Main view template.
+ *
+ * Variables available:
+ * - $classes_array: An array of classes determined in
+ *   template_preprocess_views_view(). Default classes are:
+ *     .view
+ *     .view-[css_name]
+ *     .view-id-[view_name]
+ *     .view-display-id-[display_name]
+ *     .view-dom-id-[dom_id]
+ * - $classes: A string version of $classes_array for use in the class attribute
+ * - $css_name: A css-safe version of the view name.
+ * - $css_class: The user-specified classes names, if any
+ * - $header: The view header
+ * - $footer: The view footer
+ * - $rows: The results of the view query, if any
+ * - $empty: The empty text to display if the view is empty
+ * - $pager: The pager next/prev links to display, if any
+ * - $exposed: Exposed widget form/info to display
+ * - $feed_icon: Feed icon to display, if any
+ * - $more: A link to view more, if any
+ *
+ * @ingroup views_templates
+ */
+?>
+<div class="view view-employee-skills view-id-employee_skills view-display-id-block view-dom-id-5ea2d1cd2dd9361ead0af55dd61263e8">
+            <div class="view-header">
+      Primary Skills    </div>
+  
+  
+  
+      <div class="view-content">
+	<div class="view-content-limit">
+		<div class="view-content-limit-content">
+			  <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-skills">    <span class="views-label views-label-field-skills">Expert</span>    <div class="field-content"><div class="clearfix">
+  <div class="double-field-first">JavaScript</div>
+  <div class="double-field-second JavaScript">5</div>
+</div><div class="clearfix">
+  <div class="double-field-first">OOJS</div>
+  <div class="double-field-second OOJS">5</div>
+</div><div class="clearfix">
+  <div class="double-field-first">AJAX</div>
+  <div class="double-field-second AJAX">5</div>
+</div><div class="clearfix">
+  <div class="double-field-first">HTML</div>
+  <div class="double-field-second HTML">5</div>
+</div><div class="clearfix">
+  <div class="double-field-first">CSS</div>
+  <div class="double-field-second CSS">5</div>
+</div></div>  </div>  
+  <div class="views-field views-field-field-skills-developer">    <span class="views-label views-label-field-skills-developer">Developer</span>    <div class="field-content"><div class="clearfix">
+  <div class="double-field-first">PHP</div>
+  <div class="double-field-second PHP">2</div>
+</div><div class="clearfix">
+  <div class="double-field-first">jQuery</div>
+  <div class="double-field-second jQuery">5</div>
+</div><div class="clearfix">
+  <div class="double-field-first">YUI</div>
+  <div class="double-field-second YUI">2</div>
+</div></div>  </div>  
+  <div class="views-field views-field-field-skills-familiar">    <span class="views-label views-label-field-skills-familiar">Familiar</span>    <div class="field-content"><div class="clearfix">
+  <div class="double-field-first">SQL</div>
+  <div class="double-field-second SQL">1</div>
+</div><div class="clearfix">
+  <div class="double-field-first">MySQL</div>
+  <div class="double-field-second MySQL">1</div>
+</div></div>  </div>  </div>
+		</div>
+	</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+</div><!-- /.block -->
+<section id="block-views-article-author" class="block block-views block-even">
+        <h2 class="block-title">LATEST ARTICLES</h2>
+    
+  <div class="content">
+    <?/**
+ * @file
+ * Main view template.
+ *
+ * Variables available:
+ * - $classes_array: An array of classes determined in
+ *   template_preprocess_views_view(). Default classes are:
+ *     .view
+ *     .view-[css_name]
+ *     .view-id-[view_name]
+ *     .view-display-id-[display_name]
+ *     .view-dom-id-[dom_id]
+ * - $classes: A string version of $classes_array for use in the class attribute
+ * - $css_name: A css-safe version of the view name.
+ * - $css_class: The user-specified classes names, if any
+ * - $header: The view header
+ * - $footer: The view footer
+ * - $rows: The results of the view query, if any
+ * - $empty: The empty text to display if the view is empty
+ * - $pager: The pager next/prev links to display, if any
+ * - $exposed: Exposed widget form/info to display
+ * - $feed_icon: Feed icon to display, if any
+ * - $more: A link to view more, if any
+ *
+ * @ingroup views_templates
+ */
+?>
+<div class="view view-article view-id-article view-display-id-author view-dom-id-d099661737996ff5f87b23bc9dbee18a">
+        
+  
+  
+      <div class="view-content">
+	<div class="view-content-limit">
+		<div class="view-content-limit-content">
+			  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/html5-imports">HTML5 &quot;imports&quot;</a></span>  </div>  
+  <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/js/orenf" class="active">orenf</a></span>  </div>  
+  <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
+<a href="/js" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JS</a>
+<a href="/category/tags/html5" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">HTML5</a><a href="/tags/web-components-0" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">web-components</a>
+</div></span>  </div>  
+  <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1384120800">
+      	<div class="day">
+		11	</div>
+ 	Nov. 2013</time>
+</span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/html5-imports#comments'>
+<div url='/html5-imports' class='count-comment'>0</div>
+<div class='label-comment'>comments</div>
+</a></span>  </div>  
+  <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://www.tikalk.com/html5-imports" st_title="HTML5 &quot;imports&quot;" class="st_linkedin_hcount" displaytext="linkedin"></span>
+<span st_url="http://www.tikalk.com/html5-imports" st_title="HTML5 &quot;imports&quot;" class="st_twitter_hcount" displaytext="twitter"></span>
+<span st_url="http://www.tikalk.com/html5-imports" st_title="HTML5 &quot;imports&quot;" class="st_googleplus_hcount" displaytext="googleplus"></span>
+<span st_url="http://www.tikalk.com/html5-imports" st_title="HTML5 &quot;imports&quot;" class="st_fblike_hcount" displaytext="fblike"></span>
+<script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Behold - the shiny "feature" of html5 - "import" for including web "packages" with a simple link. This is the equivalnce of "include" in many other languages with one powerful rule - you can include a resource which can import several assets - css, js and html templates.</p>
+<p>Take "bootstrap" for example. Bootstrap includes few files that should be loaded: css files, js file and perhaps other (for custom themes etc..).</p>
+<p>With "import" feature, it can be done easily with a simple line:</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/html5-imports">Read More »</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/how-use-git-bitbucket-and-get-free-private-repositories">how to use git in bitbucket and get free private repositories</a></span>  </div>  
+  <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/js/orenf" class="active">orenf</a></span>  </div>  
+  <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
+<a href="/js" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JS</a>
+<a href="/category/tags/git" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">git</a><a href="/tags/bitbucket" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">bitbucket</a>
+</div></span>  </div>  
+  <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1384120800">
+      	<div class="day">
+		11	</div>
+ 	Nov. 2013</time>
+</span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/how-use-git-bitbucket-and-get-free-private-repositories#comments'>
+<div url='/how-use-git-bitbucket-and-get-free-private-repositories' class='count-comment'>0</div>
+<div class='label-comment'>comments</div>
+</a></span>  </div>  
+  <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://www.tikalk.com/how-use-git-bitbucket-and-get-free-private-repositories" st_title="how to use git in bitbucket and get free private repositories" class="st_linkedin_hcount" displaytext="linkedin"></span>
+<span st_url="http://www.tikalk.com/how-use-git-bitbucket-and-get-free-private-repositories" st_title="how to use git in bitbucket and get free private repositories" class="st_twitter_hcount" displaytext="twitter"></span>
+<span st_url="http://www.tikalk.com/how-use-git-bitbucket-and-get-free-private-repositories" st_title="how to use git in bitbucket and get free private repositories" class="st_googleplus_hcount" displaytext="googleplus"></span>
+<span st_url="http://www.tikalk.com/how-use-git-bitbucket-and-get-free-private-repositories" st_title="how to use git in bitbucket and get free private repositories" class="st_fblike_hcount" displaytext="fblike"></span>
+<script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>A small post i wrote after on how to get free private repositories while usign git with bitbucket cloud respositories service.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/how-use-git-bitbucket-and-get-free-private-repositories">Read More »</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/js/angular-12-out">Angular 1.2 is out!</a></span>  </div>  
+  <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/js/orenf" class="active">orenf</a></span>  </div>  
+  <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
+<a href="/js" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JS</a>
+<a href="/tags/angularjs-0" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">angular.js</a>
+</div></span>  </div>  
+  <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1383948000">
+      	<div class="day">
+		9	</div>
+ 	Nov. 2013</time>
+</span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/js/angular-12-out#comments'>
+<div url='/js/angular-12-out' class='count-comment'>0</div>
+<div class='label-comment'>comments</div>
+</a></span>  </div>  
+  <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://www.tikalk.com/js/angular-12-out" st_title="Angular 1.2 is out!" class="st_linkedin_hcount" displaytext="linkedin"></span>
+<span st_url="http://www.tikalk.com/js/angular-12-out" st_title="Angular 1.2 is out!" class="st_twitter_hcount" displaytext="twitter"></span>
+<span st_url="http://www.tikalk.com/js/angular-12-out" st_title="Angular 1.2 is out!" class="st_googleplus_hcount" displaytext="googleplus"></span>
+<span st_url="http://www.tikalk.com/js/angular-12-out" st_title="Angular 1.2 is out!" class="st_fblike_hcount" displaytext="fblike"></span>
+<script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The final 1.2 version of angular has been released after rc3.</p>
+<p>Some of the highlights for this version includes:</p>
+<ol><li>Transitions and Animation directives.</li>
+<li>new, separated ngRoute module.</li>
+<li>much more goods!</li>
+</ol><p>Notice that this version requires a migration steps guide from previous versions since there are breaking changes from 1.1.X versions.</p>
+<p>Enjoy!</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/js/angular-12-out">Read More »</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/js/nodejs-mongo-backbonejs-single-app-fullstack">Node.js, Mongo &amp; Backbone.js for a single app Fullstack</a></span>  </div>  
+  <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/js/orenf" class="active">orenf</a></span>  </div>  
+  <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
+<a href="/js" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JS</a>
+<a href="/taxonomy/term/1682" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">fullstack</a><a href="/tags/javascript" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Javascript</a><a href="/tags/monogodb" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">monogodb</a>
+</div></span>  </div>  
+  <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1383688800">
+      	<div class="day">
+		6	</div>
+ 	Nov. 2013</time>
+</span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/js/nodejs-mongo-backbonejs-single-app-fullstack#comments'>
+<div url='/js/nodejs-mongo-backbonejs-single-app-fullstack' class='count-comment'>0</div>
+<div class='label-comment'>comments</div>
+</a></span>  </div>  
+  <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://www.tikalk.com/js/nodejs-mongo-backbonejs-single-app-fullstack" st_title="Node.js, Mongo &amp; Backbone.js for a single app Fullstack" class="st_linkedin_hcount" displaytext="linkedin"></span>
+<span st_url="http://www.tikalk.com/js/nodejs-mongo-backbonejs-single-app-fullstack" st_title="Node.js, Mongo &amp; Backbone.js for a single app Fullstack" class="st_twitter_hcount" displaytext="twitter"></span>
+<span st_url="http://www.tikalk.com/js/nodejs-mongo-backbonejs-single-app-fullstack" st_title="Node.js, Mongo &amp; Backbone.js for a single app Fullstack" class="st_googleplus_hcount" displaytext="googleplus"></span>
+<span st_url="http://www.tikalk.com/js/nodejs-mongo-backbonejs-single-app-fullstack" st_title="Node.js, Mongo &amp; Backbone.js for a single app Fullstack" class="st_fblike_hcount" displaytext="fblike"></span>
+<script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p><span style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 17px;">Nice SHORT post about a fullstack. the nicest thing about this post is the reasons written for each ingredient in the stack.</span></p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/js/nodejs-mongo-backbonejs-single-app-fullstack">Read More »</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/js/thoughts-about-pre-compiled-javascript-languages">Thoughts About Pre-Compiled Javascript Languages</a></span>  </div>  
+  <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/js/orenf" class="active">orenf</a></span>  </div>  
+  <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
+<a href="/js" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JS</a>
+<a href="/tags/javascript" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Javascript</a><a href="/category/tags/coffeescript" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">CoffeeScript</a><a href="/category/tags/typescript" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">typescript</a><a href="/category/tags/dart" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">DART</a>
+</div></span>  </div>  
+  <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1383516000">
+      	<div class="day">
+		4	</div>
+ 	Nov. 2013</time>
+</span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/js/thoughts-about-pre-compiled-javascript-languages#comments'>
+<div url='/js/thoughts-about-pre-compiled-javascript-languages' class='count-comment'>0</div>
+<div class='label-comment'>comments</div>
+</a></span>  </div>  
+  <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://www.tikalk.com/js/thoughts-about-pre-compiled-javascript-languages" st_title="Thoughts About Pre-Compiled Javascript Languages" class="st_linkedin_hcount" displaytext="linkedin"></span>
+<span st_url="http://www.tikalk.com/js/thoughts-about-pre-compiled-javascript-languages" st_title="Thoughts About Pre-Compiled Javascript Languages" class="st_twitter_hcount" displaytext="twitter"></span>
+<span st_url="http://www.tikalk.com/js/thoughts-about-pre-compiled-javascript-languages" st_title="Thoughts About Pre-Compiled Javascript Languages" class="st_googleplus_hcount" displaytext="googleplus"></span>
+<span st_url="http://www.tikalk.com/js/thoughts-about-pre-compiled-javascript-languages" st_title="Thoughts About Pre-Compiled Javascript Languages" class="st_fblike_hcount" displaytext="fblike"></span>
+<script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>At an internal discussion in Tikal's Javascript Group, I asked for an opinion about developing javascript with a precompiled javascript language such as - typescript, coffeescript, etc.</p>
+<p>One of the go-to reasons for going with such a solution (typescript) is the fact that it enforces such classical class-based-language conventions and syntactic sugar as well as it feels natural. </p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/js/thoughts-about-pre-compiled-javascript-languages">Read More »</a></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/js/make-your-own-angular-part-1-scopes-and-digest">Make Your Own Angular Part 1 - Scopes And Digest</a></span>  </div>  
+  <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/js/orenf" class="active">orenf</a></span>  </div>  
+  <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
+<a href="/js" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JS</a>
+<a href="/tags/angularjs-0" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">angular.js</a><a href="/tags/javascript" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Javascript</a>
+</div></span>  </div>  
+  <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1383516000">
+      	<div class="day">
+		4	</div>
+ 	Nov. 2013</time>
+</span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/js/make-your-own-angular-part-1-scopes-and-digest#comments'>
+<div url='/js/make-your-own-angular-part-1-scopes-and-digest' class='count-comment'>0</div>
+<div class='label-comment'>comments</div>
+</a></span>  </div>  
+  <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://www.tikalk.com/js/make-your-own-angular-part-1-scopes-and-digest" st_title="Make Your Own Angular Part 1 - Scopes And Digest" class="st_linkedin_hcount" displaytext="linkedin"></span>
+<span st_url="http://www.tikalk.com/js/make-your-own-angular-part-1-scopes-and-digest" st_title="Make Your Own Angular Part 1 - Scopes And Digest" class="st_twitter_hcount" displaytext="twitter"></span>
+<span st_url="http://www.tikalk.com/js/make-your-own-angular-part-1-scopes-and-digest" st_title="Make Your Own Angular Part 1 - Scopes And Digest" class="st_googleplus_hcount" displaytext="googleplus"></span>
+<span st_url="http://www.tikalk.com/js/make-your-own-angular-part-1-scopes-and-digest" st_title="Make Your Own Angular Part 1 - Scopes And Digest" class="st_fblike_hcount" displaytext="fblike"></span>
+<script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Interesting artcile that helps in understading what's undereath some of anguarl's "magic" that happens behind the scenes.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/js/make-your-own-angular-part-1-scopes-and-digest">Read More »</a></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/js/new-version-for-font-awesome-free-icons-fonts-library">New Version for Font Awesome - free icons fonts library</a></span>  </div>  
+  <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/js/orenf" class="active">orenf</a></span>  </div>  
+  <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
+<a href="/js" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JS</a>
+<a href="/category/tags/css" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">css</a><a href="/category/tags/bootstrap" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">bootstrap</a><a href="/taxonomy/term/1683" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">fontawesome</a>
+</div></span>  </div>  
+  <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1383084000">
+      	<div class="day">
+		30	</div>
+ 	Oct. 2013</time>
+</span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/js/new-version-for-font-awesome-free-icons-fonts-library#comments'>
+<div url='/js/new-version-for-font-awesome-free-icons-fonts-library' class='count-comment'>0</div>
+<div class='label-comment'>comments</div>
+</a></span>  </div>  
+  <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://www.tikalk.com/js/new-version-for-font-awesome-free-icons-fonts-library" st_title="New Version for Font Awesome - free icons fonts library" class="st_linkedin_hcount" displaytext="linkedin"></span>
+<span st_url="http://www.tikalk.com/js/new-version-for-font-awesome-free-icons-fonts-library" st_title="New Version for Font Awesome - free icons fonts library" class="st_twitter_hcount" displaytext="twitter"></span>
+<span st_url="http://www.tikalk.com/js/new-version-for-font-awesome-free-icons-fonts-library" st_title="New Version for Font Awesome - free icons fonts library" class="st_googleplus_hcount" displaytext="googleplus"></span>
+<span st_url="http://www.tikalk.com/js/new-version-for-font-awesome-free-icons-fonts-library" st_title="New Version for Font Awesome - free icons fonts library" class="st_fblike_hcount" displaytext="fblike"></span>
+<script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The popular free fonts library "Font Awesome" released a new exciting version (v4).</p>
+<p>The highlights for this release:</p>
+<ol><li>full compatibility with bootstrap 3.</li>
+<li>supports Foundation and other frameworks as well</li>
+<li>new naming conventions for classes - which allow multiuplying usage of icons</li>
+<li>add new fonts (10)</li>
+<li>dropped support for ie7</li>
+</ol></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/js/new-version-for-font-awesome-free-icons-fonts-library">Read More »</a></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/js/fullstack-of-now-talk">Fullstack Of Now talk</a></span>  </div>  
+  <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/js/orenf" class="active">orenf</a></span>  </div>  
+  <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
+<a href="/js" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JS</a>
+<a href="/taxonomy/term/1682" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">fullstack</a><a href="/tags/javascript" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Javascript</a>
+</div></span>  </div>  
+  <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1383084000">
+      	<div class="day">
+		30	</div>
+ 	Oct. 2013</time>
+</span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/js/fullstack-of-now-talk#comments'>
+<div url='/js/fullstack-of-now-talk' class='count-comment'>0</div>
+<div class='label-comment'>comments</div>
+</a></span>  </div>  
+  <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://www.tikalk.com/js/fullstack-of-now-talk" st_title="Fullstack Of Now talk" class="st_linkedin_hcount" displaytext="linkedin"></span>
+<span st_url="http://www.tikalk.com/js/fullstack-of-now-talk" st_title="Fullstack Of Now talk" class="st_twitter_hcount" displaytext="twitter"></span>
+<span st_url="http://www.tikalk.com/js/fullstack-of-now-talk" st_title="Fullstack Of Now talk" class="st_googleplus_hcount" displaytext="googleplus"></span>
+<span st_url="http://www.tikalk.com/js/fullstack-of-now-talk" st_title="Fullstack Of Now talk" class="st_fblike_hcount" displaytext="fblike"></span>
+<script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>On 29/10/2013, I gave a talk about fullstack development with javascript.</p>
+<p>The talk was part of the <a href="http://www.meetup.com/full-stack-developer-il/">Fullstack Developers Israel</a> Meetup Group.</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/js/fullstack-of-now-talk">Read More »</a></span>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/js/using-ems-responsive-web-design">Using &quot;ems&quot; in Responsive Web Design</a></span>  </div>  
+  <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/js/orenf" class="active">orenf</a></span>  </div>  
+  <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
+<a href="/js" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JS</a>
+
+</div></span>  </div>  
+  <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1382821200">
+      	<div class="day">
+		27	</div>
+ 	Oct. 2013</time>
+</span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/js/using-ems-responsive-web-design#comments'>
+<div url='/js/using-ems-responsive-web-design' class='count-comment'>0</div>
+<div class='label-comment'>comments</div>
+</a></span>  </div>  
+  <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://www.tikalk.com/js/using-ems-responsive-web-design" st_title="Using &quot;ems&quot; in Responsive Web Design" class="st_linkedin_hcount" displaytext="linkedin"></span>
+<span st_url="http://www.tikalk.com/js/using-ems-responsive-web-design" st_title="Using &quot;ems&quot; in Responsive Web Design" class="st_twitter_hcount" displaytext="twitter"></span>
+<span st_url="http://www.tikalk.com/js/using-ems-responsive-web-design" st_title="Using &quot;ems&quot; in Responsive Web Design" class="st_googleplus_hcount" displaytext="googleplus"></span>
+<span st_url="http://www.tikalk.com/js/using-ems-responsive-web-design" st_title="Using &quot;ems&quot; in Responsive Web Design" class="st_fblike_hcount" displaytext="fblike"></span>
+<script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>For anyone who's using responsive web design as a mobile first strategy, "ems" is an excellent candidate for replacing the fixed "pixel" unit.</p>
+<p>This article exlpains in depth the meaning of "2em", where it came from and the reason its good for mobile first startegy.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/js/using-ems-responsive-web-design">Read More »</a></span>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/js/promises-explained-cartoon">Promises Explained as Cartoon</a></span>  </div>  
+  <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/js/orenf" class="active">orenf</a></span>  </div>  
+  <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
+<a href="/js" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JS</a>
+<a href="/tags/angularjs-0" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">angular.js</a><a href="/tags/javascript" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Javascript</a><a href="/tags/promises" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">promises</a>
+</div></span>  </div>  
+  <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1382389200">
+      	<div class="day">
+		22	</div>
+ 	Oct. 2013</time>
+</span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/js/promises-explained-cartoon#comments'>
+<div url='/js/promises-explained-cartoon' class='count-comment'>0</div>
+<div class='label-comment'>comments</div>
+</a></span>  </div>  
+  <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://www.tikalk.com/js/promises-explained-cartoon" st_title="Promises Explained as Cartoon" class="st_linkedin_hcount" displaytext="linkedin"></span>
+<span st_url="http://www.tikalk.com/js/promises-explained-cartoon" st_title="Promises Explained as Cartoon" class="st_twitter_hcount" displaytext="twitter"></span>
+<span st_url="http://www.tikalk.com/js/promises-explained-cartoon" st_title="Promises Explained as Cartoon" class="st_googleplus_hcount" displaytext="googleplus"></span>
+<span st_url="http://www.tikalk.com/js/promises-explained-cartoon" st_title="Promises Explained as Cartoon" class="st_fblike_hcount" displaytext="fblike"></span>
+<script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Great resource for understanding promsies with a cartoon and some code.</p>
+<p>enjoy.</p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/js/promises-explained-cartoon">Read More »</a></span>  </div>  </div>
+		</div>
+	</div>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="/js/orenf?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/js/orenf?page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/js/orenf?page=3">4</a></li>
+<li class="pager-item"><a title="Go to page 5" href="/js/orenf?page=4">5</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a href="/js/orenf?page=1"></a></li>
+<li class="pager-last last"><a title="Go to last page" href="/js/orenf?page=12">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+</section><!-- /.block -->
+  </div>
+          </div><!-- /#main -->
+
+  
+      <aside id="sidebar-second" class="sidebar" role="complementary">
+        <div class="region region-sidebar-second">
+    <div id="block-views-author-block-1" class="block block-views block-odd">
+      
+  <div class="content">
+    <?/**
+ * @file
+ * Main view template.
+ *
+ * Variables available:
+ * - $classes_array: An array of classes determined in
+ *   template_preprocess_views_view(). Default classes are:
+ *     .view
+ *     .view-[css_name]
+ *     .view-id-[view_name]
+ *     .view-display-id-[display_name]
+ *     .view-dom-id-[dom_id]
+ * - $classes: A string version of $classes_array for use in the class attribute
+ * - $css_name: A css-safe version of the view name.
+ * - $css_class: The user-specified classes names, if any
+ * - $header: The view header
+ * - $footer: The view footer
+ * - $rows: The results of the view query, if any
+ * - $empty: The empty text to display if the view is empty
+ * - $pager: The pager next/prev links to display, if any
+ * - $exposed: Exposed widget form/info to display
+ * - $feed_icon: Feed icon to display, if any
+ * - $more: A link to view more, if any
+ *
+ * @ingroup views_templates
+ */
+?>
+<div class="view view-author view-id-author view-display-id-block_1 view-dom-id-bde445752f154f91b3fd39cbf7e493e0">
+        
+  
+  
+      <div class="view-content">
+	<div class="view-content-limit">
+		<div class="view-content-limit-content">
+			  <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-picture">        <div class="field-content"><img typeof="foaf:Image" src="http://www.tikalk.com/sites/default/files/styles/article-author/public/pictures/picture-87-1361229255.jpg?itok=YXmNq966" width="307" height="230" alt="" /></div>  </div>  
+  <div class="views-field views-field-field-description">        <div class="field-content">
+  <%= member.role %></div>  </div>  </div>
+		</div>
+	</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+</div><!-- /.block -->
+<div id="block-views-follow-user-block" class="block block-views block-even">
+      
+  <div class="content">
+    <?/**
+ * @file
+ * Main view template.
+ *
+ * Variables available:
+ * - $classes_array: An array of classes determined in
+ *   template_preprocess_views_view(). Default classes are:
+ *     .view
+ *     .view-[css_name]
+ *     .view-id-[view_name]
+ *     .view-display-id-[display_name]
+ *     .view-dom-id-[dom_id]
+ * - $classes: A string version of $classes_array for use in the class attribute
+ * - $css_name: A css-safe version of the view name.
+ * - $css_class: The user-specified classes names, if any
+ * - $header: The view header
+ * - $footer: The view footer
+ * - $rows: The results of the view query, if any
+ * - $empty: The empty text to display if the view is empty
+ * - $pager: The pager next/prev links to display, if any
+ * - $exposed: Exposed widget form/info to display
+ * - $feed_icon: Feed icon to display, if any
+ * - $more: A link to view more, if any
+ *
+ * @ingroup views_templates
+ */
+?>
+<div class="view view-follow-user view-id-follow_user view-display-id-block view-dom-id-98ff2a023d2cc6e20fe895ac67ca348f">
+        
+  
+  
+      <div class="view-content">
+	<div class="view-content-limit">
+		<div class="view-content-limit-content">
+			  <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-first-name">    <span class="views-label views-label-field-first-name">Follow </span>    <div class="field-content"><%= member.name %></div>  </div>  
+  <div class="views-field views-field-field-follow-on">        <div class="field-content"><a class="http://il.linkedin.com/in/orenfarhi" href="http://il.linkedin.com/in/orenfarhi">http://il.linkedin.com/in/orenfarhi</a><a class="http://twitter.com/orizens" href="http://twitter.com/orizens">http://twitter.com/orizens</a></div>  </div>  </div>
+		</div>
+	</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+</div><!-- /.block -->
+<div id="block-views-download-my-cv-block" class="block block-views block-odd">
+      
+  <div class="content">
+    <?/**
+ * @file
+ * Main view template.
+ *
+ * Variables available:
+ * - $classes_array: An array of classes determined in
+ *   template_preprocess_views_view(). Default classes are:
+ *     .view
+ *     .view-[css_name]
+ *     .view-id-[view_name]
+ *     .view-display-id-[display_name]
+ *     .view-dom-id-[dom_id]
+ * - $classes: A string version of $classes_array for use in the class attribute
+ * - $css_name: A css-safe version of the view name.
+ * - $css_class: The user-specified classes names, if any
+ * - $header: The view header
+ * - $footer: The view footer
+ * - $rows: The results of the view query, if any
+ * - $empty: The empty text to display if the view is empty
+ * - $pager: The pager next/prev links to display, if any
+ * - $exposed: Exposed widget form/info to display
+ * - $feed_icon: Feed icon to display, if any
+ * - $more: A link to view more, if any
+ *
+ * @ingroup views_templates
+ */
+?>
+<div class="view view-download-my-cv view-id-download_my_cv view-display-id-block view-dom-id-1ae030f1e97cb96021bd42b573e95e6d">
+        
+  
+  
+      <div class="view-content">
+	<div class="view-content-limit">
+		<div class="view-content-limit-content">
+			  <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      </div>
+		</div>
+	</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+</div><!-- /.block -->
+  </div>
+    </aside><!-- /#sidebar-second -->
+  </div><!-- /#page -->
+
+      <footer id="footer" role="contentinfo">
+        <div class="region region-footer">
+    <section id="block-block-2" class="block block-block block-about-tikal block-even">
+        <h2 class="block-title">About Tikal</h2>
+    
+  <div class="content">
+    <div>
+<div>
+		For over 12 years, we have helped breakthrough companies achieve excellence and meet their goals. </div>
+<div>
+		By doing so we've earned recognition for delivering extremely competitive and high-performance software services to clients worldwide.</div>
+</div>
+<div class="contact-title">
+	Contact Inforamtion</div>
+<div class="contact-number">
+	(972) 3 6488618</div>
+<div class="contact-mail">
+	<a href="">info@tikalk.com</a></div>
+  </div><!-- /.content -->
+</section><!-- /.block -->
+<section id="block-webform-client-block-22" class="block block-webform join-the-team block-odd">
+        <h2 class="block-title">Join the Team</h2>
+    
+  <div class="content">
+    <form class="webform-client-form" enctype="multipart/form-data" action="/js/orenf" method="post" id="webform-client-form-22" accept-charset="UTF-8"><div><div class="form-item webform-component webform-component-markup" id="webform-component-sub-header">
+ <p>Let us contact you with more information</p>
+
+</div>
+<div class="form-item webform-component webform-component-textfield" id="webform-component-full-name">
+ <input placeholder="Full Name" type="text" id="edit-submitted-full-name" name="submitted[full_name]" value="" size="60" maxlength="30" class="form-text required" />
+</div>
+<div class="form-item webform-component webform-component-email" id="webform-component-email-address">
+ <input class="email form-text form-email required" placeholder="Email Address" type="email" id="edit-submitted-email-address" name="submitted[email_address]" size="60" />
+</div>
+<div class="form-item webform-component webform-component-phone" id="webform-component-phone-number">
+ <input placeholder="Phone Number (optional)" type="text" id="edit-submitted-phone-number" name="submitted[phone_number]" value="" size="60" maxlength="15" class="form-text" />
+</div>
+<div class="form-item webform-component webform-component-textfield" id="webform-component-youre-a-ninja">
+ <input placeholder="You&#039;re a Ninja in... (ex: java, ruby)" type="text" id="edit-submitted-youre-a-ninja" name="submitted[youre_a_ninja]" value="" size="60" maxlength="35" class="form-text" />
+</div>
+<div id="edit-submitted-click-to-add-your-cv-ajax-wrapper"><div class="form-item webform-component webform-component-managed_file" id="webform-component-click-to-add-your-cv">
+  <label for="edit-submitted-click-to-add-your-cv">Click to add your CV </label>
+ <div id="edit-submitted-click-to-add-your-cv" class="form-managed-file"><input type="file" id="edit-submitted-click-to-add-your-cv-upload" name="files[submitted_click_to_add_your_cv]" size="22" class="form-file" /><input type="submit" id="edit-submitted-click-to-add-your-cv-upload-button" name="submitted_click_to_add_your_cv_upload_button" value="Upload" class="form-submit" /><input type="hidden" name="submitted[click_to_add_your_cv][fid]" value="0" />
+</div>
+</div>
+</div><input type="hidden" name="details[sid]" value="" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-FxAH5gPrMDWViswRWBWEbKHaNVzYmcn3zLlpLhCyWWA" />
+<input type="hidden" name="form_id" value="webform_client_form_22" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Send" class="form-submit" /></div></div></form>  </div><!-- /.content -->
+</section><!-- /.block -->
+<section id="block-general-tikal-map-home-page" class="block block-general-tikal block-even">
+        <h2 class="block-title">Find us at:</h2>
+    
+  <div class="content">
+    <div id="map_canvas_footer" style="width:240px; height: 200px"></div>
+		   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		   <script type="text/javascript">
+			var latlng = new google.maps.LatLng(32.1065469,34.83523969999999);
+			var settings = {
+		  		zoom: 15,
+				center: latlng,
+				mapTypeControl: false,
+				mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
+				navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
+				mapTypeId: google.maps.MapTypeId.ROADMAP};
+			var map = new google.maps.Map(document.getElementById("map_canvas_footer"), settings);			
+			var companyImage = new google.maps.MarkerImage("sites/all/themes/sasson/tikal/images/logo-map.png",
+				new google.maps.Size(100,50),
+				new google.maps.Point(0,0),
+				new google.maps.Point(50,50)
+			);
+			var companyShadow = new google.maps.MarkerImage("images/logo_shadow.png",
+				new google.maps.Size(130,50),
+				new google.maps.Point(0,0),
+				new google.maps.Point(65, 50));
+			var companyPos = new google.maps.LatLng(32.1065469,34.83523969999999);
+			var companyMarker = new google.maps.Marker({
+				position: companyPos,
+				map: map,
+				icon: companyImage,
+				shadow: companyShadow,
+				title:"",
+				zIndex: 3});
+		</script>  </div><!-- /.content -->
+</section><!-- /.block -->
+<div id="block-block-3" class="block block-block find-us-at block-odd">
+      
+  <div class="content">
+    <div class="address">
+	Habarzel 4 st, 1st Floor&nbsp;<br />
+	Tel Aviv 69710<br />
+	Israel</div>  </div><!-- /.content -->
+</div><!-- /.block -->
+  </div>
+    </footer><!-- /#footer -->
+  
+    <footer id="footer-second" role="contentinfo">
+        <div class="region region-footer-second">
+    <section id="block-views-popular-articles-block" class="block block-views block-even">
+        <h2 class="block-title">Popular Articles</h2>
+    
+  <div class="content">
+    <?/**
+ * @file
+ * Main view template.
+ *
+ * Variables available:
+ * - $classes_array: An array of classes determined in
+ *   template_preprocess_views_view(). Default classes are:
+ *     .view
+ *     .view-[css_name]
+ *     .view-id-[view_name]
+ *     .view-display-id-[display_name]
+ *     .view-dom-id-[dom_id]
+ * - $classes: A string version of $classes_array for use in the class attribute
+ * - $css_name: A css-safe version of the view name.
+ * - $css_class: The user-specified classes names, if any
+ * - $header: The view header
+ * - $footer: The view footer
+ * - $rows: The results of the view query, if any
+ * - $empty: The empty text to display if the view is empty
+ * - $pager: The pager next/prev links to display, if any
+ * - $exposed: Exposed widget form/info to display
+ * - $feed_icon: Feed icon to display, if any
+ * - $more: A link to view more, if any
+ *
+ * @ingroup views_templates
+ */
+?>
+<div class="view view-popular-articles view-id-popular_articles view-display-id-block view-dom-id-e6e817d90909363e2c755777c569c0ee">
+        
+  
+  
+      <div class="view-content">
+	<div class="view-content-limit">
+		<div class="view-content-limit-content">
+			  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/java/location-auto-complete-and-lookup">Location Auto complete and lookup</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/js/present-and-future-typescript">Present and future of TypeScript</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/ror/building-gogobot-social-graph">building the gogobot social graph</a></span>  </div>  </div>
+		</div>
+	</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+</section><!-- /.block -->
+<section id="block-menu-menu-fields" class="block block-menu block-odd">
+        <h2 class="block-title">Domains</h2>
+    
+  <div class="content">
+    <ul class="menu clearfix"><li class="first leaf application lifecycle management"><a href="/alm" title="">Application Lifecycle Management</a></li>
+<li class="leaf java"><a href="/java" title="">Java</a></li>
+<li class="leaf javascript"><a href="/js" title="">JavaScript</a></li>
+<li class="leaf .net"><a href="/net" title="">.NET</a></li>
+<li class="last leaf ruby on rails"><a href="/ror" title="">Ruby on Rails</a></li>
+</ul>  </div><!-- /.content -->
+</section><!-- /.block -->
+<section id="block-menu-menu-site-map" class="block block-menu block-even">
+        <h2 class="block-title">Site Map</h2>
+    
+  <div class="content">
+    <ul class="menu clearfix"><li class="first leaf about us"><a href="/about" title="">About Us</a></li>
+<li class="leaf solutions"><a href="/solutions" title="">Solutions</a></li>
+<li class="leaf careers"><a href="/careers" title="">Careers</a></li>
+<li class="last leaf contact"><a href="/contact" title="">Contact</a></li>
+</ul>  </div><!-- /.content -->
+</section><!-- /.block -->
+<div id="block-block-1" class="block block-block all-rights-reserved block-odd">
+      
+  <div class="content">
+    <p>© 2013 All Rights Reserved. Tikal</p>
+  </div><!-- /.content -->
+</div><!-- /.block -->
+<div id="block-menu-menu-external-links" class="block block-menu block-even">
+      
+  <div class="content">
+    <ul class="menu clearfix"><li class="first leaf facebook"><a href="http://www.facebook.com/TikalKnowledge" title="">Facebook</a></li>
+<li class="leaf twitter"><a href="https://twitter.com/TikalK" title="">Twitter</a></li>
+<li class="leaf in"><a href="http://www.linkedin.com/company/tikal-knowledge" title="">in</a></li>
+<li class="last leaf rss"><a href="/rss-latest-articles" title="Latest Articles">RSS</a></li>
+</ul>  </div><!-- /.content -->
+</div><!-- /.block -->
+  </div>
+    </footer><!-- /#footer_second -->
+    
+<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-5.newrelic.com","c8295a3910","2746988","NAFWN0QHDBEEAUQNXQ1LdQBCDw0MShdDAUA8El0GQTkSAwIH",0,5212,new Date().getTime(),"","","","",""]);</script></body>
+</html>
