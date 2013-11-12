@@ -34,6 +34,10 @@ docpadConfig = {
         },
         externalLib: function(){
             return require('./lib/externalLib');
+        },
+        getTeamMember: function(pathName){
+            var allTeam = require('./src/files/data/team.json');
+            return allTeam[pathName];
         }
     },
     events: {
