@@ -120,7 +120,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="content">
     <div class="profile" typeof="sioc:UserAccount" about="/js/orenf">
     <div class="user-picture">
-    <a href="/js/orenf" title="View user profile." class="active"><img typeof="foaf:Image" src="http://www.tikalk.com/sites/default/files/styles/article-author/public/pictures/picture-87-1361229255.jpg?itok=YXmNq966" width="307" height="230" alt="orenf&#039;s picture" title="orenf&#039;s picture" /></a>  </div>
+    <a href="#" title="View user profile." class="active"><img typeof="foaf:Image" src="http://www.tikalk.com/sites/default/files/styles/article-author/public/pictures/picture-87-1361229255.jpg?itok=YXmNq966" width="307" height="230" alt="orenf&#039;s picture" title="orenf&#039;s picture" /></a>  </div>
 <!--
 THIS FILE IS NOT USED AND IS HERE AS A STARTING POINT FOR CUSTOMIZATION ONLY.
 See http://api.drupal.org/api/function/theme_field/7 for details.
