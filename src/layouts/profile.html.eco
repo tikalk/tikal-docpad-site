@@ -1,4 +1,5 @@
 <% member = @getTeamMember(@document.memberPath) %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN"
 "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"><!--[if lte IE 7 ]><html lang="en" dir="ltr" version="HTML+RDFa 1.1"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
