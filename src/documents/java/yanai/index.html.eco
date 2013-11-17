@@ -1,530 +1,168 @@
 ---
-layout: 'profile'
+layout: 'home'
 title: 'Yanai'
 memberPath: 'java/yanai'
 ---
 <% member = @getTeamMember(@document.memberPath) %>
-
 <div class="featured-background">
-    <div id="featured"
-            >
-        <div class="region-title-and-featured">
-
-            <h1 class="title" id="page-title">Yanai</h1>
-
-
-
-
-            <div class="user-profile-filed-about">
-                <%- member.bio %>
-            </div>
-        </div><!-- /#region-title-and-featured -->
-    </div><!-- /#featured -->
+<div id="featured" >
+<div class="region-title-and-featured">
+<h1 class="title" id="page-title"><%= member.name %></h1>
+<div class="user-profile-filed-about">
+<%= member.bio %>
+</div>
+</div><!-- /#region-title-and-featured -->
+</div><!-- /#featured -->
 </div><!-- /.featured-background -->
 <div class="shadow-page"></div><!-- /.shadow-page -->
-<div id="page">
-
+<div id="page"> 
 <div id="main">
-
 <div class="region region-content">
 <div id="block-system-main" class="block block-system block-even">
-
-    <div class="content">
-        <div class="profile" typeof="sioc:UserAccount" about="/java/yanai">
-            <div class="user-picture">
-                <a href="/java/yanai" title="View user profile." class="active"><img typeof="foaf:Image" src="http://tikalk.com/sites/default/files/styles/article-author/public/pictures/picture-51-1361228853.jpg?itok=mQo-C5uB" width="307" height="230" alt="yanai&#039;s picture" title="yanai&#039;s picture" /></a>  </div>
-            <!--
-            THIS FILE IS NOT USED AND IS HERE AS A STARTING POINT FOR CUSTOMIZATION ONLY.
-            See http://api.drupal.org/api/function/theme_field/7 for details.
-            After copying this file to your theme's folder and customizing it, remove this
-            HTML comment.
-            -->
-            <div class="field field-name-field-about field-type-text-long field-label-hidden">
-                <div class="field-items">
-                    <div class="field-item  field-item-1 even">Over 12 years of experience in the software industry, has a vast experience in the Java Server architecture, in technologies such as Hibernate , Spring , EJB3 and much more.
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div><!-- /.content -->
+<div class="content">
+<div class="profile" typeof="sioc:UserAccount" about="/js/orenf">
+<div class="user-picture">
+<a href="/js/orenf" title="View user profile." class="active"><img typeof="foaf:Image" src="http://www.tikalk.com/sites/default/files/styles/article-author/public/pictures/picture-87-1361229255.jpg?itok=YXmNq966" width="307" height="230" alt="orenf&#039;s picture" title="orenf&#039;s picture" /></a>  </div>
+</div>
+</div><!-- /.content -->
 </div><!-- /.block -->
 <div id="block-views-employee-skills-block" class="block block-views block-odd">
+<div class="content">
+<div class="view view-employee-skills view-id-employee_skills view-display-id-block view-dom-id-5ea2d1cd2dd9361ead0af55dd61263e8">
+<div class="view-header">
+Primary Skills    </div>
+<div class="view-content">
+<div class="view-content-limit">
+<div class="view-content-limit-content">
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
 
-    <div class="content">
-        <div class="view view-employee-skills view-id-employee_skills view-display-id-block view-dom-id-c8ea11c1daa19c2756ffc5951168ad95">
-            <div class="view-header">
-                Primary Skills    </div>
-
-
-
-            <div class="view-content">
-                <div class="view-content-limit">
-                    <div class="view-content-limit-content">
-                        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-
-                            <div class="views-field views-field-field-skills">    <span class="views-label views-label-field-skills">Expert</span>    <div class="field-content"><div class="clearfix">
-                                <div class="double-field-first">JAVA</div>
-                                <div class="double-field-second JAVA">10</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">Solr</div>
-                                <div class="double-field-second Solr">2</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">Hibernate</div>
-                                <div class="double-field-second Hibernate">7</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">Spring</div>
-                                <div class="double-field-second Spring">7</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">EJB2/3</div>
-                                <div class="double-field-second EJB2/3">7</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">JPA</div>
-                                <div class="double-field-second JPA">5</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">JDBC</div>
-                                <div class="double-field-second JDBC">10</div>
-                            </div></div>  </div>
-                            <div class="views-field views-field-field-skills-developer">    <span class="views-label views-label-field-skills-developer">Developer</span>    <div class="field-content"><div class="clearfix">
-                                <div class="double-field-first">SQL</div>
-                                <div class="double-field-second SQL">10</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">NoSQL</div>
-                                <div class="double-field-second NoSQL">2</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">MongoDB</div>
-                                <div class="double-field-second MongoDB">2</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">AWS</div>
-                                <div class="double-field-second AWS">2</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">Linux</div>
-                                <div class="double-field-second Linux">4</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">MySQL</div>
-                                <div class="double-field-second MySQL">4</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">JBoss</div>
-                                <div class="double-field-second JBoss">5</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">Tomcat</div>
-                                <div class="double-field-second Tomcat">5</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">SVN</div>
-                                <div class="double-field-second SVN">7</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">ANT</div>
-                                <div class="double-field-second ANT">7</div>
-                            </div><div class="clearfix">
-                                <div class="double-field-first">Maven</div>
-                                <div class="double-field-second Maven">7</div>
-                            </div></div>  </div>  </div>
-                    </div>
-                </div>
-            </div>
+<div class="views-field views-field-field-skills">    <span class="views-label views-label-field-skills">Expert</span>    <div class="field-content"><div class="clearfix">
+<div class="double-field-first">JavaScript</div>
+<div class="double-field-second JavaScript">5</div>
+</div><div class="clearfix">
+<div class="double-field-first">OOJS</div>
+<div class="double-field-second OOJS">5</div>
+</div><div class="clearfix">
+<div class="double-field-first">AJAX</div>
+<div class="double-field-second AJAX">5</div>
+</div><div class="clearfix">
+<div class="double-field-first">HTML</div>
+<div class="double-field-second HTML">5</div>
+</div><div class="clearfix">
+<div class="double-field-first">CSS</div>
+<div class="double-field-second CSS">5</div>
+</div></div>  </div>  
+<div class="views-field views-field-field-skills-developer">    <span class="views-label views-label-field-skills-developer">Developer</span>    <div class="field-content"><div class="clearfix">
+<div class="double-field-first">PHP</div>
+<div class="double-field-second PHP">2</div>
+</div><div class="clearfix">
+<div class="double-field-first">jQuery</div>
+<div class="double-field-second jQuery">5</div>
+</div><div class="clearfix">
+<div class="double-field-first">YUI</div>
+<div class="double-field-second YUI">2</div>
+</div></div>  </div>  
+<div class="views-field views-field-field-skills-familiar">    <span class="views-label views-label-field-skills-familiar">Familiar</span>    <div class="field-content"><div class="clearfix">
+<div class="double-field-first">SQL</div>
+<div class="double-field-second SQL">1</div>
+</div><div class="clearfix">
+<div class="double-field-first">MySQL</div>
+<div class="double-field-second MySQL">1</div>
+</div></div>  </div>  </div>
+</div>
+</div>
+</div>
 
 
 
 
 
 
-        </div>  </div><!-- /.content -->
+</div>  </div><!-- /.content -->
 </div><!-- /.block -->
-<section id="block-views-article-author" class="block block-views block-even">
-<h2 class="block-title">LATEST ARTICLES</h2>
+</div>
+</div><!-- /#main -->
+
+
+<aside id="sidebar-second" class="sidebar" role="complementary">
+<div class="region region-sidebar-second">
+<div id="block-views-author-block-1" class="block block-views block-odd">
 
 <div class="content">
-<div class="view view-article view-id-article view-display-id-author view-dom-id-8795faed5d38de2fa0697cca54c29c14">
+
+<div class="view view-author view-id-author view-display-id-block_1 view-dom-id-bde445752f154f91b3fd39cbf7e493e0">
 
 
 
 <div class="view-content">
 <div class="view-content-limit">
 <div class="view-content-limit-content">
-<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
 
-    <div class="views-field views-field-title">        <span class="field-content"><a href="/java/travel-nosql-application-polyglot-nosql-springdata-neo4j-and-mongodb">Travel NoSQL Application - Polyglot NoSQL with SpringData on Neo4J and MongoDB</a></span>  </div>
-    <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/java/yanai" class="active">yanai</a></span>  </div>
-    <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
-        <a href="/java" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JAVA</a>
-        <a href="/category/tags/nosql-springdata-polyglot-persistence" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">NoSQL SpringData Polyglot Persistence</a>
-    </div></span>  </div>
-    <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>
-    <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1356472800">
-        <div class="day">
-            26	</div>
-        Dec. 2012</time>
-</span>  </div>
-    <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/java/travel-nosql-application-polyglot-nosql-springdata-neo4j-and-mongodb#comments'>
-        <div url='/java/travel-nosql-application-polyglot-nosql-springdata-neo4j-and-mongodb' class='count-comment'>0</div>
-        <div class='label-comment'>comments</div>
-    </a></span>  </div>
-    <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://tikalk.com/java/travel-nosql-application-polyglot-nosql-springdata-neo4j-and-mongodb" st_title="Travel NoSQL Application - Polyglot NoSQL with SpringData on Neo4J and MongoDB" class="st_linkedin_hcount" displaytext="linkedin"></span>
-        <span st_url="http://tikalk.com/java/travel-nosql-application-polyglot-nosql-springdata-neo4j-and-mongodb" st_title="Travel NoSQL Application - Polyglot NoSQL with SpringData on Neo4J and MongoDB" class="st_twitter_hcount" displaytext="twitter"></span>
-        <span st_url="http://tikalk.com/java/travel-nosql-application-polyglot-nosql-springdata-neo4j-and-mongodb" st_title="Travel NoSQL Application - Polyglot NoSQL with SpringData on Neo4J and MongoDB" class="st_googleplus_hcount" displaytext="googleplus"></span>
-        <span st_url="http://tikalk.com/java/travel-nosql-application-polyglot-nosql-springdata-neo4j-and-mongodb" st_title="Travel NoSQL Application - Polyglot NoSQL with SpringData on Neo4J and MongoDB" class="st_fblike_hcount" displaytext="fblike"></span>
-        <script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>
-    <div class="views-field views-field-body">        <div class="field-content"><p> In this Fuse day, Tikal Java group decided to continue <a href="http://www.tikalk.com/java/build-your-first-hadoop-project-maven">its previous Fuse research for NoSQL</a>, but this time from a different point of view – SpringData and Polyglot persistence. We had two goals in this Fuse day: try working with more than one <a href="http://en.wikipedia.org/wiki/NoSQL">NoSQL</a> in the same application, and also taking advantage of <a href="http://www.springsource.org/spring-data">SpringData</a> data access abstractions for NoSQL databases.</p></div>  </div>
-    <div class="views-field views-field-view-node">        <span class="field-content"><a href="/java/travel-nosql-application-polyglot-nosql-springdata-neo4j-and-mongodb">Read More »</a></span>  </div>  </div>
-<div class="views-row views-row-2 views-row-even">
-
-    <div class="views-field views-field-title">        <span class="field-content"><a href="/alm/secure-java-code-customer-springhibernate-web-application">Secure Java code for customer with Spring/Hibernate web application</a></span>  </div>
-    <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/java/yanai" class="active">yanai</a></span>  </div>
-    <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
-        <a href="/alm" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">ALM</a>
-        <a href="/category/tags/obfuscation-java-code" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Obfuscation Java code</a><a href="/category/tags/obfuscation-java-code" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Obfuscation Java code</a>
-    </div></span>  </div>
-    <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>
-    <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1356213600">
-        <div class="day">
-            23	</div>
-        Dec. 2012</time>
-</span>  </div>
-    <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/alm/secure-java-code-customer-springhibernate-web-application#comments'>
-        <div url='/alm/secure-java-code-customer-springhibernate-web-application' class='count-comment'>0</div>
-        <div class='label-comment'>comments</div>
-    </a></span>  </div>
-    <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://tikalk.com/alm/secure-java-code-customer-springhibernate-web-application" st_title="Secure Java code for customer with Spring/Hibernate web application" class="st_linkedin_hcount" displaytext="linkedin"></span>
-        <span st_url="http://tikalk.com/alm/secure-java-code-customer-springhibernate-web-application" st_title="Secure Java code for customer with Spring/Hibernate web application" class="st_twitter_hcount" displaytext="twitter"></span>
-        <span st_url="http://tikalk.com/alm/secure-java-code-customer-springhibernate-web-application" st_title="Secure Java code for customer with Spring/Hibernate web application" class="st_googleplus_hcount" displaytext="googleplus"></span>
-        <span st_url="http://tikalk.com/alm/secure-java-code-customer-springhibernate-web-application" st_title="Secure Java code for customer with Spring/Hibernate web application" class="st_fblike_hcount" displaytext="fblike"></span>
-        <script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>
-    <div class="views-field views-field-body">        <div class="field-content"><p> <span style="font-size: 9pt; line-height: 0.47cm;">Hi,</span></p>
-        <p style="margin-bottom: 0cm; border: none; padding: 0cm; line-height: 0.47cm;"> </p></div>  </div>
-    <div class="views-field views-field-view-node">        <span class="field-content"><a href="/alm/secure-java-code-customer-springhibernate-web-application">Read More »</a></span>  </div>  </div>
-<div class="views-row views-row-3 views-row-odd">
-
-    <div class="views-field views-field-title">        <span class="field-content"><a href="/java/introduction-springdata-tikal-fuseday">Introduction to SpringData for Tikal FuseDay</a></span>  </div>
-    <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/java/yanai" class="active">yanai</a></span>  </div>
-    <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
-        <a href="/java" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JAVA</a>
-
-    </div></span>  </div>
-    <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>
-    <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1353276000">
-        <div class="day">
-            19	</div>
-        Nov. 2012</time>
-</span>  </div>
-    <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/java/introduction-springdata-tikal-fuseday#comments'>
-        <div url='/java/introduction-springdata-tikal-fuseday' class='count-comment'>0</div>
-        <div class='label-comment'>comments</div>
-    </a></span>  </div>
-    <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://tikalk.com/java/introduction-springdata-tikal-fuseday" st_title="Introduction to SpringData for Tikal FuseDay" class="st_linkedin_hcount" displaytext="linkedin"></span>
-        <span st_url="http://tikalk.com/java/introduction-springdata-tikal-fuseday" st_title="Introduction to SpringData for Tikal FuseDay" class="st_twitter_hcount" displaytext="twitter"></span>
-        <span st_url="http://tikalk.com/java/introduction-springdata-tikal-fuseday" st_title="Introduction to SpringData for Tikal FuseDay" class="st_googleplus_hcount" displaytext="googleplus"></span>
-        <span st_url="http://tikalk.com/java/introduction-springdata-tikal-fuseday" st_title="Introduction to SpringData for Tikal FuseDay" class="st_fblike_hcount" displaytext="fblike"></span>
-        <script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>
-    <div class="views-field views-field-body">        <div class="field-content"><p> This is a basic introduction session for Spring Data, which will serve as a background to our working session on Fuse day. We will NOT cover all the SpringData umbrella sub-project, just the one/ones we will use on Fuse.</p>
-        <p> </p>
-    </div>  </div>
-    <div class="views-field views-field-view-node">        <span class="field-content"><a href="/java/introduction-springdata-tikal-fuseday">Read More »</a></span>  </div>  </div>
-<div class="views-row views-row-4 views-row-even">
-
-    <div class="views-field views-field-title">        <span class="field-content"><a href="/java/solr-workshop-first-session">Solr Workshop - First Session</a></span>  </div>
-    <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/java/yanai" class="active">yanai</a></span>  </div>
-    <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
-        <a href="/java" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JAVA</a>
-
-    </div></span>  </div>
-    <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>
-    <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1353276000">
-        <div class="day">
-            19	</div>
-        Nov. 2012</time>
-</span>  </div>
-    <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/java/solr-workshop-first-session#comments'>
-        <div url='/java/solr-workshop-first-session' class='count-comment'>0</div>
-        <div class='label-comment'>comments</div>
-    </a></span>  </div>
-    <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://tikalk.com/java/solr-workshop-first-session" st_title="Solr Workshop - First Session" class="st_linkedin_hcount" displaytext="linkedin"></span>
-        <span st_url="http://tikalk.com/java/solr-workshop-first-session" st_title="Solr Workshop - First Session" class="st_twitter_hcount" displaytext="twitter"></span>
-        <span st_url="http://tikalk.com/java/solr-workshop-first-session" st_title="Solr Workshop - First Session" class="st_googleplus_hcount" displaytext="googleplus"></span>
-        <span st_url="http://tikalk.com/java/solr-workshop-first-session" st_title="Solr Workshop - First Session" class="st_fblike_hcount" displaytext="fblike"></span>
-        <script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>
-    <div class="views-field views-field-body">        <div class="field-content"><p> <span style="color: rgb(64, 64, 64); font-family: Verdana; font-size: 14pt;">This two sessions hands-on workshop is targeted at developers who want to build applications with Solr, the Lucene search server. You will learn how to set up and use Solr to index and search, how to analyze and solve common problems.</span></p>
-        <p> </p>
-    </div>  </div>
-    <div class="views-field views-field-view-node">        <span class="field-content"><a href="/java/solr-workshop-first-session">Read More »</a></span>  </div>  </div>
-<div class="views-row views-row-5 views-row-odd">
-
-    <div class="views-field views-field-title">        <span class="field-content"><a href="/java/solr-workshop-second-session">Solr Workshop - Second Session</a></span>  </div>
-    <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/java/yanai" class="active">yanai</a></span>  </div>
-    <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
-        <a href="/java" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JAVA</a>
-
-    </div></span>  </div>
-    <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>
-    <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1353276000">
-        <div class="day">
-            19	</div>
-        Nov. 2012</time>
-</span>  </div>
-    <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/java/solr-workshop-second-session#comments'>
-        <div url='/java/solr-workshop-second-session' class='count-comment'>0</div>
-        <div class='label-comment'>comments</div>
-    </a></span>  </div>
-    <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://tikalk.com/java/solr-workshop-second-session" st_title="Solr Workshop - Second Session" class="st_linkedin_hcount" displaytext="linkedin"></span>
-        <span st_url="http://tikalk.com/java/solr-workshop-second-session" st_title="Solr Workshop - Second Session" class="st_twitter_hcount" displaytext="twitter"></span>
-        <span st_url="http://tikalk.com/java/solr-workshop-second-session" st_title="Solr Workshop - Second Session" class="st_googleplus_hcount" displaytext="googleplus"></span>
-        <span st_url="http://tikalk.com/java/solr-workshop-second-session" st_title="Solr Workshop - Second Session" class="st_fblike_hcount" displaytext="fblike"></span>
-        <script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>
-    <div class="views-field views-field-body">        <div class="field-content"><p> <span style="color: rgb(64, 64, 64); font-family: Verdana; font-size: 14pt;">This two sessions hands-on workshop is targeted at developers who want to build applications with Solr, the Lucene search server. You will learn how to set up and use Solr to index and search, how to analyze and solve common problems.</span></p>
-        <p> </p>
-    </div>  </div>
-    <div class="views-field views-field-view-node">        <span class="field-content"><a href="/java/solr-workshop-second-session">Read More »</a></span>  </div>  </div>
-<div class="views-row views-row-6 views-row-even">
-
-    <div class="views-field views-field-title">        <span class="field-content"><a href="/build-your-first-hadoop-project-maven">Build Your First Hadoop project with Maven</a></span>  </div>
-    <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/java/yanai" class="active">yanai</a></span>  </div>
-    <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
-        <a href="/java" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JAVA</a>
-        <a href="/category/tags/hadoop-big-data-maven" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hadoop Big Data Maven</a><a href="/category/tags/hadoop-big-data-maven" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hadoop Big Data Maven</a>
-    </div></span>  </div>
-    <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>
-    <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1337720400">
-        <div class="day">
-            23	</div>
-        May. 2012</time>
-</span>  </div>
-    <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/build-your-first-hadoop-project-maven#comments'>
-        <div url='/build-your-first-hadoop-project-maven' class='count-comment'>0</div>
-        <div class='label-comment'>comments</div>
-    </a></span>  </div>
-    <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://tikalk.com/build-your-first-hadoop-project-maven" st_title="Build Your First Hadoop project with Maven" class="st_linkedin_hcount" displaytext="linkedin"></span>
-        <span st_url="http://tikalk.com/build-your-first-hadoop-project-maven" st_title="Build Your First Hadoop project with Maven" class="st_twitter_hcount" displaytext="twitter"></span>
-        <span st_url="http://tikalk.com/build-your-first-hadoop-project-maven" st_title="Build Your First Hadoop project with Maven" class="st_googleplus_hcount" displaytext="googleplus"></span>
-        <span st_url="http://tikalk.com/build-your-first-hadoop-project-maven" st_title="Build Your First Hadoop project with Maven" class="st_fblike_hcount" displaytext="fblike"></span>
-        <script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>
-    <div class="views-field views-field-body">        <div class="field-content"><p>In <a href="http://www.tikalk.com/events/sessions/hadoop-and-bigdata-session">this fuse day</a> we jumped into the <a href="http://en.wikipedia.org/wiki/Big_data">BigData</a> world, and obviously, our first choice was <a href="http://hadoop.apache.org/">Hadoop</a>. Hadoop is a de-facto standard in the open source world today for large scale data processing. In this article I'll describe the “baby steps”, I took in order to set up my first Hadoop Java project, so it will be easier for any Hadoop newbie to kick start a Java Maven project.</p></div>  </div>
-    <div class="views-field views-field-view-node">        <span class="field-content"><a href="/build-your-first-hadoop-project-maven">Read More »</a></span>  </div>  </div>
-<div class="views-row views-row-7 views-row-odd">
-
-    <div class="views-field views-field-title">        <span class="field-content"><a href="/prepare-session-hadoop-and-bigdata">Prepare session for Hadoop and BigData</a></span>  </div>
-    <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/java/yanai" class="active">yanai</a></span>  </div>
-    <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
-        <a href="/java" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JAVA</a>
-
-    </div></span>  </div>
-    <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>
-    <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1336424400">
-        <div class="day">
-            8	</div>
-        May. 2012</time>
-</span>  </div>
-    <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/prepare-session-hadoop-and-bigdata#comments'>
-        <div url='/prepare-session-hadoop-and-bigdata' class='count-comment'>0</div>
-        <div class='label-comment'>comments</div>
-    </a></span>  </div>
-    <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://tikalk.com/prepare-session-hadoop-and-bigdata" st_title="Prepare session for Hadoop and BigData" class="st_linkedin_hcount" displaytext="linkedin"></span>
-        <span st_url="http://tikalk.com/prepare-session-hadoop-and-bigdata" st_title="Prepare session for Hadoop and BigData" class="st_twitter_hcount" displaytext="twitter"></span>
-        <span st_url="http://tikalk.com/prepare-session-hadoop-and-bigdata" st_title="Prepare session for Hadoop and BigData" class="st_googleplus_hcount" displaytext="googleplus"></span>
-        <span st_url="http://tikalk.com/prepare-session-hadoop-and-bigdata" st_title="Prepare session for Hadoop and BigData" class="st_fblike_hcount" displaytext="fblike"></span>
-        <script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>
-    <div class="views-field views-field-body">        <div class="field-content"><p> For details please<a href="http://www.tikalk.com/events/sessions/hadoop-and-bigdata-session"> look here</a></p>
-    </div>  </div>
-    <div class="views-field views-field-view-node">        <span class="field-content"><a href="/prepare-session-hadoop-and-bigdata">Read More »</a></span>  </div>  </div>
-<div class="views-row views-row-8 views-row-even">
-
-    <div class="views-field views-field-title">        <span class="field-content"><a href="/using-chopped-annotation-dtos">Using &quot;Chopped&quot; annotation on DTOs</a></span>  </div>
-    <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/java/yanai" class="active">yanai</a></span>  </div>
-    <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
-        <a href="/java" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JAVA</a>
-        <a href="/category/tags/hibernate-chopp-lazy-association" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hibernate Chopp lazy association</a><a href="/category/tags/hibernate-chopp-lazy-association" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hibernate Chopp lazy association</a>
-    </div></span>  </div>
-    <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>
-    <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1336338000">
-        <div class="day">
-            7	</div>
-        May. 2012</time>
-</span>  </div>
-    <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/using-chopped-annotation-dtos#comments'>
-        <div url='/using-chopped-annotation-dtos' class='count-comment'>0</div>
-        <div class='label-comment'>comments</div>
-    </a></span>  </div>
-    <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://tikalk.com/using-chopped-annotation-dtos" st_title="Using &quot;Chopped&quot; annotation on DTOs" class="st_linkedin_hcount" displaytext="linkedin"></span>
-        <span st_url="http://tikalk.com/using-chopped-annotation-dtos" st_title="Using &quot;Chopped&quot; annotation on DTOs" class="st_twitter_hcount" displaytext="twitter"></span>
-        <span st_url="http://tikalk.com/using-chopped-annotation-dtos" st_title="Using &quot;Chopped&quot; annotation on DTOs" class="st_googleplus_hcount" displaytext="googleplus"></span>
-        <span st_url="http://tikalk.com/using-chopped-annotation-dtos" st_title="Using &quot;Chopped&quot; annotation on DTOs" class="st_fblike_hcount" displaytext="fblike"></span>
-        <script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>
-    <div class="views-field views-field-body">        <div class="field-content"><p>On <a href="http://www.tikalk.com/java/blog/chop-hibernate-lazy-associations">the last post</a>, I introduced Lazy-Chopper – A new library, that can chop your lazy associations of a graph, returned by the service layer to the client. There are some questions though:  What are the constraints for the returned graph? Can we pass any object within it? What about collections - are they supported by the lazy chopper as well?</p>
-    </div>  </div>
-    <div class="views-field views-field-view-node">        <span class="field-content"><a href="/using-chopped-annotation-dtos">Read More »</a></span>  </div>  </div>
-<div class="views-row views-row-9 views-row-odd">
-
-    <div class="views-field views-field-title">        <span class="field-content"><a href="/java-8-roadmap-unveiled">Java 8 Roadmap Unveiled</a></span>  </div>
-    <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/java/yanai" class="active">yanai</a></span>  </div>
-    <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
-        <a href="/java" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JAVA</a>
-        <a href="/category/tags/java-8" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Java 8</a><a href="/category/tags/java-8" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Java 8</a>
-    </div></span>  </div>
-    <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>
-    <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1334437200">
-        <div class="day">
-            15	</div>
-        Apr. 2012</time>
-</span>  </div>
-    <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/java-8-roadmap-unveiled#comments'>
-        <div url='/java-8-roadmap-unveiled' class='count-comment'>0</div>
-        <div class='label-comment'>comments</div>
-    </a></span>  </div>
-    <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://tikalk.com/java-8-roadmap-unveiled" st_title="Java 8 Roadmap Unveiled" class="st_linkedin_hcount" displaytext="linkedin"></span>
-        <span st_url="http://tikalk.com/java-8-roadmap-unveiled" st_title="Java 8 Roadmap Unveiled" class="st_twitter_hcount" displaytext="twitter"></span>
-        <span st_url="http://tikalk.com/java-8-roadmap-unveiled" st_title="Java 8 Roadmap Unveiled" class="st_googleplus_hcount" displaytext="googleplus"></span>
-        <span st_url="http://tikalk.com/java-8-roadmap-unveiled" st_title="Java 8 Roadmap Unveiled" class="st_fblike_hcount" displaytext="fblike"></span>
-        <script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>
-    <div class="views-field views-field-body">        <div class="field-content"><p> Roadmap can be found <a href="http://java.dzone.com/articles/java-8-roadmap-unveiled?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+javalobby%2Ffrontpage+%28Javalobby+%2F+Java+Zone%29">in this</a> post</p>
-    </div>  </div>
-    <div class="views-field views-field-view-node">        <span class="field-content"><a href="/java-8-roadmap-unveiled">Read More »</a></span>  </div>  </div>
-<div class="views-row views-row-10 views-row-even views-row-last">
-
-    <div class="views-field views-field-title">        <span class="field-content"><a href="/chop-hibernate-lazy-associations">Chop Hibernate Lazy Associations</a></span>  </div>
-    <div class="views-field views-field-uid">    <span class="views-label views-label-uid">by</span>    <span class="field-content"><a href="/java/yanai" class="active">yanai</a></span>  </div>
-    <div class="views-field views-field-nothing">    <span class="views-label views-label-nothing">tags: </span>    <span class="field-content"><div class="tags">
-        <a href="/java" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">JAVA</a>
-        <a href="/category/tags/hibernate-jpa-lazy-associations" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hibernate JPA Lazy Associations</a><a href="/category/tags/hibernate-jpa-lazy-associations" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Hibernate JPA Lazy Associations</a>
-    </div></span>  </div>
-    <div class="views-field views-field-nothing-1">    <span class="views-label views-label-nothing-1">border: </span>    <span class="field-content"></span>  </div>
-    <div class="views-field views-field-created">        <span class="field-content"><time pubdate datetime="1332108000">
-        <div class="day">
-            19	</div>
-        Mar. 2012</time>
-</span>  </div>
-    <div class="views-field views-field-comment-count">        <span class="field-content"><a class='comments' href='/chop-hibernate-lazy-associations#comments'>
-        <div url='/chop-hibernate-lazy-associations' class='count-comment'>3</div>
-        <div class='label-comment'>comments</div>
-    </a></span>  </div>
-    <div class="views-field views-field-sharethis">        <span class="field-content"><div class="sharethis-wrapper"><span st_url="http://tikalk.com/chop-hibernate-lazy-associations" st_title="Chop Hibernate Lazy Associations" class="st_linkedin_hcount" displaytext="linkedin"></span>
-        <span st_url="http://tikalk.com/chop-hibernate-lazy-associations" st_title="Chop Hibernate Lazy Associations" class="st_twitter_hcount" displaytext="twitter"></span>
-        <span st_url="http://tikalk.com/chop-hibernate-lazy-associations" st_title="Chop Hibernate Lazy Associations" class="st_googleplus_hcount" displaytext="googleplus"></span>
-        <span st_url="http://tikalk.com/chop-hibernate-lazy-associations" st_title="Chop Hibernate Lazy Associations" class="st_fblike_hcount" displaytext="fblike"></span>
-        <script type='text/javascript'>var switchTo5x = true;</script><script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script><script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script></div></span>  </div>
-    <div class="views-field views-field-body">        <div class="field-content"><p> </p>
-    </div>  </div>
-    <div class="views-field views-field-view-node">        <span class="field-content"><a href="/chop-hibernate-lazy-associations">Read More »</a></span>  </div>  </div>
+<div class="views-field views-field-picture">        <div class="field-content"><img typeof="foaf:Image" src="<%= member.image.url %>" width="307" height="230" alt="" /></div>  </div>  
+<div class="views-field views-field-field-description">        <div class="field-content">
+<%= member.role %></div>  </div>  </div>
 </div>
 </div>
 </div>
 
-<h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
-    <li class="pager-item"><a title="Go to page 2" href="/java/yanai?page=1">2</a></li>
-    <li class="pager-item"><a title="Go to page 3" href="/java/yanai?page=2">3</a></li>
-    <li class="pager-item"><a title="Go to page 4" href="/java/yanai?page=3">4</a></li>
-    <li class="pager-item"><a title="Go to page 5" href="/java/yanai?page=4">5</a></li>
-    <li class="pager-ellipsis">…</li>
-    <li class="pager-next"><a href="/java/yanai?page=1"></a></li>
-    <li class="pager-last last"><a title="Go to last page" href="/java/yanai?page=9">last »</a></li>
-</ul></div>
+
 
 
 
 
 </div>  </div><!-- /.content -->
-</section><!-- /.block -->
+</div><!-- /.block -->
+<div id="block-views-follow-user-block" class="block block-views block-even">
+
+<div class="content">
+
+<div class="view view-follow-user view-id-follow_user view-display-id-block view-dom-id-98ff2a023d2cc6e20fe895ac67ca348f">
+
+
+
+<div class="view-content">
+<div class="view-content-limit">
+<div class="view-content-limit-content">
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+
+<div class="views-field views-field-field-first-name">    <span class="views-label views-label-field-first-name">Follow </span>    <div class="field-content"><%= member.name %></div>  </div>  
+<div class="views-field views-field-field-follow-on">        <div class="field-content"><a class="http://il.linkedin.com/in/orenfarhi" href="http://il.linkedin.com/in/orenfarhi">http://il.linkedin.com/in/orenfarhi</a><a class="http://twitter.com/orizens" href="http://twitter.com/orizens">http://twitter.com/orizens</a></div>  </div>  </div>
 </div>
-</div><!-- /#main -->
-
-
-<aside id="sidebar-second" class="sidebar" role="complementary">
-    <div class="region region-sidebar-second">
-        <div id="block-views-author-block-1" class="block block-views block-odd">
-
-            <div class="content">
-                <?/**
- * @file
- * Main view template.
- *
- * Variables available:
- * - $classes_array: An array of classes determined in
- *   template_preprocess_views_view(). Default classes are:
- *     .view
- *     .view-[css_name]
- *     .view-id-[view_name]
- *     .view-display-id-[display_name]
- *     .view-dom-id-[dom_id]
- * - $classes: A string version of $classes_array for use in the class attribute
- * - $css_name: A css-safe version of the view name.
- * - $css_class: The user-specified classes names, if any
- * - $header: The view header
- * - $footer: The view footer
- * - $rows: The results of the view query, if any
- * - $empty: The empty text to display if the view is empty
- * - $pager: The pager next/prev links to display, if any
- * - $exposed: Exposed widget form/info to display
- * - $feed_icon: Feed icon to display, if any
- * - $more: A link to view more, if any
- *
- * @ingroup views_templates
- */
-?>
-                <div class="view view-author view-id-author view-display-id-block_1 view-dom-id-43acfe83c49dd7855b7d61bf4ebb025b">
-
-
-
-                    <div class="view-content">
-                        <div class="view-content-limit">
-                            <div class="view-content-limit-content">
-                                <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-
-                                    <div class="views-field views-field-picture">        <div class="field-content"><img typeof="foaf:Image" src="http://tikalk.com/sites/default/files/styles/article-author/public/pictures/picture-51-1361228853.jpg?itok=mQo-C5uB" width="307" height="230" alt="" /></div>  </div>
-                                    <div class="views-field views-field-field-description">        <div class="field-content">Java Architect</div>  </div>  </div>
-                            </div>
-                        </div>
-                    </div>
+</div>
+</div>
 
 
 
 
 
 
-                </div>  </div><!-- /.content -->
-        </div><!-- /.block -->
-        <div id="block-views-download-my-cv-block" class="block block-views block-even">
+</div>  </div><!-- /.content -->
+</div><!-- /.block -->
+<div id="block-views-download-my-cv-block" class="block block-views block-odd">
 
-            <div class="content">
-                <?/**
- * @file
- * Main view template.
- *
- * Variables available:
- * - $classes_array: An array of classes determined in
- *   template_preprocess_views_view(). Default classes are:
- *     .view
- *     .view-[css_name]
- *     .view-id-[view_name]
- *     .view-display-id-[display_name]
- *     .view-dom-id-[dom_id]
- * - $classes: A string version of $classes_array for use in the class attribute
- * - $css_name: A css-safe version of the view name.
- * - $css_class: The user-specified classes names, if any
- * - $header: The view header
- * - $footer: The view footer
- * - $rows: The results of the view query, if any
- * - $empty: The empty text to display if the view is empty
- * - $pager: The pager next/prev links to display, if any
- * - $exposed: Exposed widget form/info to display
- * - $feed_icon: Feed icon to display, if any
- * - $more: A link to view more, if any
- *
- * @ingroup views_templates
- */
-?>
-                <div class="view view-download-my-cv view-id-download_my_cv view-display-id-block view-dom-id-e9d7627071e96b29d81b85ed206058db">
+<div class="content">
+
+<div class="view view-download-my-cv view-id-download_my_cv view-display-id-block view-dom-id-1ae030f1e97cb96021bd42b573e95e6d">
 
 
 
-                    <div class="view-content">
-                        <div class="view-content-limit">
-                            <div class="view-content-limit-content">
-                                <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<div class="view-content">
+<div class="view-content-limit">
+<div class="view-content-limit-content">
+<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+</div>
+</div>
+</div>
+</div>
 
 
 
 
 
 
-                </div>  </div><!-- /.content -->
+</div>  </div><!-- /.content -->
+</div><!-- /.block -->
+</div>
+</aside><!-- /#sidebar-second -->
+</div><!-- /#page -->
