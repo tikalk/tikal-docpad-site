@@ -1,3 +1,4 @@
+var allTeam = require('./src/files/data/team.json');
 var docpadConfig,
     __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
 
@@ -36,7 +37,6 @@ docpadConfig = {
             return require('./lib/externalLib');
         },
         getTeamMember: function(pathName){
-            var allTeam = require('./src/files/data/team.json');
             return allTeam[pathName];
         }
     },
@@ -87,6 +87,17 @@ docpadConfig = {
                 return next();
             });
             return this;
+        },
+        docpadLoaded: function(opts, next){
+            var command = ['grunt', 'generate-team-members'],
+                balUtil = require('bal-util'),
+                docpad = this.docpad,
+                rootPath = docpad.config.rootPath;
+
+            balUtil.spawn(command, {
+                cwd: rootPath,
+                output: true
+            },next);
         }
     }
 };

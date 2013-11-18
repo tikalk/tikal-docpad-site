@@ -1,0 +1,23 @@
+<% member = @getTeamMember(@document.memberPath) %>
+<% if member.skills: %>	
+	<div class="view view-employee-skills view-id-employee_skills view-display-id-block view-dom-id-5ea2d1cd2dd9361ead0af55dd61263e8">
+	<div class="view-header">Primary Skills</div>
+	<div class="view-content">
+	<div class="view-content-limit">
+	<div class="view-content-limit-content">
+	<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+	<% for k of member.skills: %>
+		<div class="views-field views-field-field-skills">
+		<span class="views-label views-label-field-skills"><%= k %></span>
+		<div class="field-content">
+		<% category = member.skills[k] %>		
+		<% for q of category: %>
+			<div class="clearfix">
+				<div class="double-field-first"><%= q %></div>
+	  			<div class="double-field-second <%= q %>"><%= category[q] %></div>
+			</div>
+		<% end %>
+		</div></div>
+	<% end %>
+	</div></div></div></div></div>
+<% end %>  

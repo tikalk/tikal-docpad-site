@@ -177,7 +177,31 @@
 		"role": ".NET Architect", 
 		"active": true, 
 		"type": "employee", 
-		"email": "sample@person.com"
+		"email": "sample@person.com",
+		"skills": {
+			"Expert": {
+				".NET": 10,
+				"WinForms": 10,
+				"WPF": 10,
+				"ASP.NET": 10,
+				"WCF": 10,
+				"NHibernate": 5,
+				"EF": 5,
+				"JavaScript": 7,
+				"HTML":	10
+			},
+			"Developer": {
+				"SQL": 10,
+				"MSSQL": 10,
+				"NoSQL": 2,
+				"JAVA":	5,
+				"jQuery": 7,
+				"CSS": 5
+			},
+			"Familiar": {
+				"ExtJS":1
+			}
+		}
 	},
 	"js/orenf": {
 		"website": "http://tikalk.com/js/orenf", 
