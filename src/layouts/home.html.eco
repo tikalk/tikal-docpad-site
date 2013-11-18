@@ -42,57 +42,8 @@
                              xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                              xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js"> <!--<![endif]--><head profile="http://www.w3.org/1999/xhtml/vocab">
 
-    <meta charset="utf-8" />
-    <meta HTTP-EQUIV="Expires" CONTENT="-1" />
-    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache" />
-    <meta HTTP-EQUIV="Cache" Content="no store" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <link rel="shortcut icon" href="http://tikalk.com/sites/all/themes/sasson/tikal/favicon.ico" type="image/vnd.microsoft.icon" />
-    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache" />
-    <meta property="og:image" content="http://tikalk.com/sites/all/themes/sasson/tikal/tikal-ico.jpg" />
-    <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
-    <link rel="canonical" href="/content/who-are-we" />
-    <link rel="shortlink" href="/node/27" />
-    <meta content="Who Are We?" about="/content/who-are-we" property="dc:title" />
-    <meta about="/content/who-are-we" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+    <%- @partial('head-inner', @) %>
 
-    <title><%= @getPreparedTitle() %></title>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
-    <link type="text/css" rel="stylesheet" href="http://tikalk.com/sites/default/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="http://tikalk.com/sites/default/files/css/css_7P45jZGFQxhQmHfndoYns-_XN1bLVmGS69c8hsLtx8s.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="http://tikalk.com/sites/default/files/css/css_qH_jB6hVrZvk49zDbjCJ1bUyCmf2A_FLkc0voiVRD68.css" media="all" />
-    <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" media="all" />
-    <script type="text/javascript" src="http://tikalk.com/sites/default/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
-    <script type="text/javascript" src="http://tikalk.com/sites/default/files/js/js_ucOirI2XtUCy4uPf82BrgusGllBd_wA4FWlf6Cp5hJA.js"></script>
-    <script type="text/javascript" src="http://tikalk.com/sites/default/files/js/js_nCQKhabtBFC3f3KwRZ7Erw9W0fbKqfY-atbn6zW4n1w.js"></script>
-    <script type="text/javascript" src="http://tikalk.com/sites/default/files/js/js_F8OYgulpbU_VNmA7-LVF60PwoNB54wx91Cw75rjij_s.js"></script>
-    <script type="text/javascript">
-        <!--//--><![CDATA[//><!--
-        var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-1365497-6"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
-        //--><!]]>
-    </script>
-    <script type="text/javascript">
-        <!--//--><![CDATA[//><!--
-        jQuery(document).ready(function () {
-            var labels = jQuery(".field-label");
-            jQuery.each(labels, function() {
-                this.innerHTML = this.innerHTML.replace(":", "");
-            });
-            var labels = jQuery(".double-field-first");
-            jQuery.each(labels, function() {
-                this.innerHTML = this.innerHTML.replace(":", "");
-            });
-        });
-        //--><!]]>
-    </script>
-    <script type="text/javascript" src="http://tikalk.com/sites/default/files/js/js_novAodeiiGn95u1GSUMWJEaqoui-G8aH6D2Ouvxt39M.js"></script>
-    <script type="text/javascript">
-        <!--//--><![CDATA[//><!--
-        jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"tikal","theme_token":"ltT7xPAQTLf3az8uza3GfsxCRWfNqirjdaZo-jElWJ8","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.effects.core.min.js":1,"misc\/jquery.cookie.js":1,"misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/back_to_top\/js\/back_to_top.js":1,"sites\/all\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/plain\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/modules\/contrib\/webform_conditional\/webform_conditional.js":1,"misc\/progress.js":1,"modules\/file\/file.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"sites\/all\/modules\/contrib\/webform\/js\/webform.js":1,"0":1,"1":1,"sites\/all\/themes\/sasson\/scripts\/sasson.js":1,"sites\/all\/themes\/sasson\/tikal\/scripts\/jquery.scrollTo-1.4.3.1-min.js":1,"sites\/all\/themes\/sasson\/tikal\/scripts\/jquery.autoellipsis-1.0.10.min.js":1,"sites\/all\/themes\/sasson\/tikal\/scripts\/tikal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/themes\/sasson\/styles\/reset\/normalize.css":1,"sites\/all\/modules\/contrib\/back_to_top\/css\/back_to_top.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/themes\/sasson\/styles\/sasson.scss":1,"sites\/all\/modules\/contrib\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/plain\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/linkedin\/linkedin_auth\/linkedin_auth.css":1,"sites\/all\/modules\/contrib\/linkedin\/linkedin_profile\/linkedin_profile.css":1,"sites\/all\/modules\/contrib\/linkedin\/linkedin_status\/linkedin_status.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow_controls_text.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"modules\/file\/file.css":1,"sites\/all\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/all\/themes\/sasson\/tikal\/styles\/tikal.scss":1,"sites\/all\/themes\/sasson\/tikal\/styles\/tikal-css.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans":1}},"back_to_top":{"back_to_top_button_trigger":"100","back_to_top_prevent_on_mobile":1,"back_to_top_prevent_in_admin":1,"back_to_top_button_type":"image"},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true},"viewsSlideshow":{"slideshow-block":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowControls":{"slideshow-block":{"bottom":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slideshow-block":{"num_divs":3,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slideshow-block","effect":"scrollLeft","transition_advanced":1,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":1,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"webform_conditional":{"fields":false,"nid":"22","showSpeed":null},"file":{"elements":{"#edit-submitted-click-to-add-your-cv-upload":"txt,rtf,html,odf,pdf,doc,docx,ppt"}},"ajax":{"edit-submitted-click-to-add-your-cv-upload-button":{"wrapper":"edit-submitted-click-to-add-your-cv-ajax-wrapper","effect":"fade","progress":{"type":"throbber","message":null},"event":"mousedown","keypress":true,"prevent":"click","url":"\/file\/ajax\/submitted\/click_to_add_your_cv\/form-L573Crja2B2uHSZ5YNmNZPVXn1Q29_SNvJY4e5Labhs","submit":{"_triggering_element_name":"submitted_click_to_add_your_cv_upload_button","_triggering_element_value":"Upload"}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
-        //--><!]]>
-    </script>
-
-    <!--[if lt IE 9]><script src="/sites/all/themes/sasson/scripts/html5shiv.js"></script><![endif]-->
 </head>
 <body class="html front not-logged-in no-sidebars page-node page-node- page-node-27 node-type-page all-pages with-navigation with-subnav featured dir-ltr" >
 
