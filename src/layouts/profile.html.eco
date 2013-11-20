@@ -1,171 +1,132 @@
 <% member = @getTeamMember(@document.memberPath) %>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN"
-"http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"><!--[if lte IE 7 ]><html lang="en" dir="ltr" version="HTML+RDFa 1.1"
-xmlns:content="http://purl.org/rss/1.0/modules/content/"
-xmlns:dc="http://purl.org/dc/terms/"
-xmlns:foaf="http://xmlns.com/foaf/0.1/"
-xmlns:og="http://ogp.me/ns#"
-xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-xmlns:sioc="http://rdfs.org/sioc/ns#"
-xmlns:sioct="http://rdfs.org/sioc/types#"
-xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js ie7 lte-ie9 lte-ie8"><![endif]-->
-<!--[if IE 8 ]><html lang="en" dir="ltr" version="HTML+RDFa 1.1"
-xmlns:content="http://purl.org/rss/1.0/modules/content/"
-xmlns:dc="http://purl.org/dc/terms/"
-xmlns:foaf="http://xmlns.com/foaf/0.1/"
-xmlns:og="http://ogp.me/ns#"
-xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-xmlns:sioc="http://rdfs.org/sioc/ns#"
-xmlns:sioct="http://rdfs.org/sioc/types#"
-xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js ie8 lte-ie9 lte-ie8"><![endif]-->
-<!--[if IE 9 ]><html lang="en" dir="ltr" version="HTML+RDFa 1.1"
-xmlns:content="http://purl.org/rss/1.0/modules/content/"
-xmlns:dc="http://purl.org/dc/terms/"
-xmlns:foaf="http://xmlns.com/foaf/0.1/"
-xmlns:og="http://ogp.me/ns#"
-xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-xmlns:sioc="http://rdfs.org/sioc/ns#"
-xmlns:sioct="http://rdfs.org/sioc/types#"
-xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js ie9 lte-ie9"><![endif]-->
-<!--[if gt IE 9]><!--> <html lang="en" dir="ltr" version="HTML+RDFa 1.1"
-xmlns:content="http://purl.org/rss/1.0/modules/content/"
-xmlns:dc="http://purl.org/dc/terms/"
-xmlns:foaf="http://xmlns.com/foaf/0.1/"
-xmlns:og="http://ogp.me/ns#"
-xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-xmlns:sioc="http://rdfs.org/sioc/ns#"
-xmlns:sioct="http://rdfs.org/sioc/types#"
-xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js"> <!--<![endif]--><head profile="http://www.w3.org/1999/xhtml/vocab">
-
-<%- @partial('head', @) %>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<!--[if lte IE 7 ]>
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+                                                                                 xmlns:content="http://purl.org/rss/1.0/modules/content/"
+                                                                                 xmlns:dc="http://purl.org/dc/terms/"
+                                                                                 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                                                                                 xmlns:og="http://ogp.me/ns#"
+                                                                                 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                                                                                 xmlns:sioc="http://rdfs.org/sioc/ns#"
+                                                                                 xmlns:sioct="http://rdfs.org/sioc/types#"
+                                                                                 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                                                                                 xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js ie7 lte-ie9 lte-ie8"><![endif]-->
+<!--[if IE 8 ]>
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+                     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+                     xmlns:dc="http://purl.org/dc/terms/"
+                     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                     xmlns:og="http://ogp.me/ns#"
+                     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                     xmlns:sioc="http://rdfs.org/sioc/ns#"
+                     xmlns:sioct="http://rdfs.org/sioc/types#"
+                     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js ie8 lte-ie9 lte-ie8"><![endif]-->
+<!--[if IE 9 ]>
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+                     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+                     xmlns:dc="http://purl.org/dc/terms/"
+                     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                     xmlns:og="http://ogp.me/ns#"
+                     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                     xmlns:sioc="http://rdfs.org/sioc/ns#"
+                     xmlns:sioct="http://rdfs.org/sioc/types#"
+                     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js ie9 lte-ie9"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:og="http://ogp.me/ns#"
+                             xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                             xmlns:sioc="http://rdfs.org/sioc/ns#"
+                             xmlns:sioct="http://rdfs.org/sioc/types#"
+                             xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+                             xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+                             lang="en"
+                             dir="ltr"
+                             version="HTML+RDFa 1.1" class="no-js"> <!--<![endif]--><head profile="http://www.w3.org/1999/xhtml/vocab">
+    <%- @partial('head', @) %>
 </head>
 <body class="html not-front not-logged-in one-sidebar sidebar-second page-user page-user- page-user-87 all-pages section-profile with-navigation with-subnav dir-ltr page-orenf section-js" >
-
 <!--[if lte IE 7 ]>
 <p class='chromeframe'>Your browser is <em>ancient!</em> <a href='http://browsehappy.com/'>Upgrade to a different browser</a> or <a href='http://www.google.com/chromeframe/?redirect=true'>install Google Chrome Frame</a> to experience this site.</p>
 <![endif]-->
-
 <%- @partial('header', @) %>
 <div class="featured-background">
-<div id="featured">
-<div class="region-title-and-featured">
-
-<h1 class="title" id="page-title"><%= member.name %></h1>
-<div class="user-profile-filed-about">
-<%= member.bio %>
-</div>
-</div><!-- /#region-title-and-featured -->
-</div><!-- /#featured -->
+    <div id="featured">
+        <div class="region-title-and-featured">
+            <h1 class="title" id="page-title"><%= member.name %></h1>
+            <div class="user-profile-filed-about">
+                <%= member.bio %>
+            </div>
+        </div><!-- /#region-title-and-featured -->
+    </div><!-- /#featured -->
 </div><!-- /.featured-background -->
 <div class="shadow-page"></div><!-- /.shadow-page -->
-<div id="page"> 
-
-<div id="main">
-
-<div class="region region-content">
-<div id="block-system-main" class="block block-system block-even">
-
-<div class="content">
-<div class="profile" typeof="sioc:UserAccount" about="/js/orenf">
-<div class="user-picture">
-<a href="/js/orenf" title="View user profile." class="active"><img typeof="foaf:Image" src="http://www.tikalk.com/sites/default/files/styles/article-author/public/pictures/picture-87-1361229255.jpg?itok=YXmNq966" width="307" height="230" alt="orenf&#039;s picture" title="orenf&#039;s picture" /></a>  </div>
-
-</div>
-</div><!-- /.content -->
-</div><!-- /.block -->
-<div id="block-views-employee-skills-block" class="block block-views block-odd">
-
-<div class="content">
-<%- @partial('skills',@) %>
-</div><!-- /.content -->
-</div><!-- /.block -->
-</div>
-</div><!-- /#main -->
-
-<aside id="sidebar-second" class="sidebar" role="complementary">
-<div class="region region-sidebar-second">
-<div id="block-views-author-block-1" class="block block-views block-odd">
-
-<div class="content">
-<div class="view view-author view-id-author view-display-id-block_1 view-dom-id-bde445752f154f91b3fd39cbf7e493e0">
-
-<div class="view-content">
-<div class="view-content-limit">
-<div class="view-content-limit-content">
-<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-
-<div class="views-field views-field-picture">        <div class="field-content"><img typeof="foaf:Image" src="<%= member.image.url %>" width="307" height="230" alt="" /></div>  </div>  
-<div class="views-field views-field-field-description">        <div class="field-content">
-<%= member.role %></div>  </div>  </div>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-</div>  </div><!-- /.content -->
-</div><!-- /.block -->
-<div id="block-views-follow-user-block" class="block block-views block-even">
-
-<div class="content">
-<div class="view view-follow-user view-id-follow_user view-display-id-block view-dom-id-98ff2a023d2cc6e20fe895ac67ca348f">
-
-
-
-<div class="view-content">
-<div class="view-content-limit">
-<div class="view-content-limit-content">
-<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-
-<div class="views-field views-field-field-first-name">    <span class="views-label views-label-field-first-name">Follow </span>    <div class="field-content"><%= member.name %></div>  </div>  
-<div class="views-field views-field-field-follow-on">        <div class="field-content"><a class="http://il.linkedin.com/in/orenfarhi" href="http://il.linkedin.com/in/orenfarhi">http://il.linkedin.com/in/orenfarhi</a><a class="http://twitter.com/orizens" href="http://twitter.com/orizens">http://twitter.com/orizens</a></div>  </div>  </div>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-</div>  </div><!-- /.content -->
-</div><!-- /.block -->
-<div id="block-views-download-my-cv-block" class="block block-views block-odd">
-
-<div class="content">
-<div class="view view-download-my-cv view-id-download_my_cv view-display-id-block view-dom-id-1ae030f1e97cb96021bd42b573e95e6d">
-
-
-
-<div class="view-content">
-<div class="view-content-limit">
-<div class="view-content-limit-content">
-<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-</div>  </div><!-- /.content -->
-</div><!-- /.block -->
-</div>
-</aside><!-- /#sidebar-second -->
+<div id="page">
+    <div id="main">
+        <div class="region region-content">
+            <div id="block-system-main" class="block block-system block-even">
+                <div class="content">
+                    <div class="profile" typeof="sioc:UserAccount" about="/js/orenf">
+                        <div class="user-picture">
+                            <a href="/js/orenf" title="View user profile." class="active"><img typeof="foaf:Image" src="http://www.tikalk.com/sites/default/files/styles/article-author/public/pictures/picture-87-1361229255.jpg?itok=YXmNq966" width="307" height="230" alt="orenf&#039;s picture" title="orenf&#039;s picture" /></a>  </div>
+                    </div>
+                </div><!-- /.content -->
+            </div><!-- /.block -->
+            <div id="block-views-employee-skills-block" class="block block-views block-odd">
+                <div class="content">
+                    <%- @partial('skills',@) %>
+                </div><!-- /.content -->
+            </div><!-- /.block -->
+        </div>
+    </div><!-- /#main -->
+    <aside id="sidebar-second" class="sidebar" role="complementary">
+        <div class="region region-sidebar-second">
+            <div id="block-views-author-block-1" class="block block-views block-odd">
+                <div class="content">
+                    <div class="view view-author view-id-author view-display-id-block_1 view-dom-id-bde445752f154f91b3fd39cbf7e493e0">
+                        <div class="view-content">
+                            <div class="view-content-limit">
+                                <div class="view-content-limit-content">
+                                    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+                                        <div class="views-field views-field-picture">        <div class="field-content"><img typeof="foaf:Image" src="<%= member.image.url %>" width="307" height="230" alt="" /></div>  </div>
+                                        <div class="views-field views-field-field-description">        <div class="field-content">
+                                            <%= member.role %></div>  </div>  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  </div><!-- /.content -->
+            </div><!-- /.block -->
+            <div id="block-views-follow-user-block" class="block block-views block-even">
+                <div class="content">
+                    <div class="view view-follow-user view-id-follow_user view-display-id-block view-dom-id-98ff2a023d2cc6e20fe895ac67ca348f">
+                        <div class="view-content">
+                            <div class="view-content-limit">
+                                <div class="view-content-limit-content">
+                                    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+                                        <div class="views-field views-field-field-first-name">    <span class="views-label views-label-field-first-name">Follow </span>    <div class="field-content"><%= member.name %></div>  </div>
+                                        <div class="views-field views-field-field-follow-on">        <div class="field-content"><a class="http://il.linkedin.com/in/orenfarhi" href="http://il.linkedin.com/in/orenfarhi">http://il.linkedin.com/in/orenfarhi</a><a class="http://twitter.com/orizens" href="http://twitter.com/orizens">http://twitter.com/orizens</a></div>  </div>  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  </div><!-- /.content -->
+            </div><!-- /.block -->
+            <div id="block-views-download-my-cv-block" class="block block-views block-odd">
+                <div class="content">
+                    <div class="view view-download-my-cv view-id-download_my_cv view-display-id-block view-dom-id-1ae030f1e97cb96021bd42b573e95e6d">
+                        <div class="view-content">
+                            <div class="view-content-limit">
+                                <div class="view-content-limit-content">
+                                    <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  </div><!-- /.content -->
+            </div><!-- /.block -->
+        </div>
+    </aside><!-- /#sidebar-second -->
 </div><!-- /#page -->
-
-<%- @partial('footer',@) %>   
+<%- @partial('footer',@) %>
 <script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-5.newrelic.com","c8295a3910","2746988","NAFWN0QHDBEEAUQNXQ1LdQBCDw0MShdDAUA8El0GQTkSAwIH",0,5212,new Date().getTime(),"","","","",""]);</script></body>
 </html>
