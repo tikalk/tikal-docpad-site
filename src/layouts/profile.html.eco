@@ -1,4 +1,3 @@
-<% member = @getTeamMember(@document.memberPath) %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <!--[if lte IE 7 ]>
 <html lang="en" dir="ltr" version="HTML+RDFa 1.1"
@@ -44,6 +43,7 @@
                              lang="en"
                              dir="ltr"
                              version="HTML+RDFa 1.1" class="no-js"> <!--<![endif]--><head profile="http://www.w3.org/1999/xhtml/vocab">
+    <% member = @getTeamMember(@document.memberPath) %>
     <%- @partial('head', @) %>
 </head>
 <body class="html not-front not-logged-in one-sidebar sidebar-second page-user page-user- page-user-87 all-pages section-profile with-navigation with-subnav dir-ltr page-orenf section-js" >

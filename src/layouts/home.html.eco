@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN"
         "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"><!--[if lte IE 7 ]><html lang="en" dir="ltr" version="HTML+RDFa 1.1"
                                                                                  xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -41,25 +39,14 @@
                              xmlns:sioct="http://rdfs.org/sioc/types#"
                              xmlns:skos="http://www.w3.org/2004/02/skos/core#"
                              xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js"> <!--<![endif]--><head profile="http://www.w3.org/1999/xhtml/vocab">
-
     <%- @partial('head-inner', @) %>
-
 </head>
 <body class="html front not-logged-in no-sidebars page-node page-node- page-node-27 node-type-page all-pages with-navigation with-subnav featured dir-ltr" >
-
 <!--[if lte IE 7 ]>
 <p class='chromeframe'>Your browser is <em>ancient!</em> <a href='http://browsehappy.com/'>Upgrade to a different browser</a> or <a href='http://www.google.com/chromeframe/?redirect=true'>install Google Chrome Frame</a> to experience this site.</p>
 <![endif]-->
-
 <%- @partial('header', @) %>
-
-
 <%- @content %>
-
-
-
 <%- @partial('footer', @) %>
 </body>
 </html>
-
-<!-- Page cached by Boost @ 2013-11-06 07:29:11, expires @ 2013-11-06 08:29:11, lifetime 1 hour -->
