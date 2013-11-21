@@ -44,7 +44,7 @@
                              dir="ltr"
                              version="HTML+RDFa 1.1" class="no-js"> <!--<![endif]--><head profile="http://www.w3.org/1999/xhtml/vocab">
     <% member = @getTeamMember(@document.memberPath) %>
-    <%- @partial('head', @) %>
+    <%- @partial('head-inner', @) %>
 </head>
 <body class="html not-front not-logged-in one-sidebar sidebar-second page-user page-user- page-user-87 all-pages section-profile with-navigation with-subnav dir-ltr page-orenf section-js" >
 <!--[if lte IE 7 ]>
