@@ -14,8 +14,7 @@
           "src": [
               "out/vendor/normalize.css",
               "out/styles/style.css",
-              "out/styles/home.css",
-              "out/styles/profile.css"
+              "out/styles/home.css"
           ],
           "dest": "out/styles/all.css"
       }
