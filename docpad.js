@@ -6,6 +6,11 @@ docpadConfig = {
     reloadPaths:['./lib/'],
     regeneratePaths:['./lib/'],
     regenerateDelay: 300,
+    collections: {
+      latestposts: function() {
+          return this.getCollection('html').findAllLive({relativeOutDirPath: 'posts'},[{created:-1}],{limit:10});
+      }
+    },
     templateData: {
         site: {
             url: "http://www.tikalk.com",

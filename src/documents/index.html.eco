@@ -301,7 +301,7 @@ title: 'Who Are We?'
                                 <div class="back">
                                     <div class="views-field views-field-nothing">	 	 	 	    <span class="field-content"><div class="about">Working on a full blown website with Ruby on rails as a framework, managing servers and databases, deploying to a number of servers etc</div>
 <div class="name">Avi Tzurel</div>
-<div class="description">RoR Architect</div></span>	 	 	  </div>	 </div>
+<div class="desctoArrayription">RoR Architect</div></span>	 	 	  </div>	 </div>
                             </a>
 
                         </div>
@@ -403,3 +403,4 @@ title: 'Who Are We?'
 
 
 </div><!-- /#page -->
+<%- @partial('postlist', @) %>

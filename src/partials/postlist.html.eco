@@ -1,0 +1,7 @@
+<ul class="nav nav-pills">
+    <% for document in @getCollection('latestposts').toJSON(): %>
+    <li>
+        <a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
+    </li>
+    <% end %>
+</ul>
