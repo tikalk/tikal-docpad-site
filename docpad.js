@@ -38,6 +38,19 @@ docpadConfig = {
         },
         getTeamMember: function(pathName){
             return allTeam[pathName];
+        },
+        getFirstParagraph: function(content) {
+            var paragraphs = content.split('</p>');
+            return paragraphs[0] + '</p>';
+        },
+        getTagUrl: function (tag) {
+            var groups = ['ALM', 'JAVA', 'JS', '.NET', 'RoR'], url;
+            if(groups.indexOf(tag) > -1) {
+                url = '/'+tag;
+            } else {
+                url = '/category/tags/' + tag;
+            }
+            return url;
         }
     },
     events: {
@@ -63,7 +76,7 @@ docpadConfig = {
             rootPath = docpad.config.rootPath;
             balUtil = require('bal-util');
             _ = require('underscore');
-            command = ['grunt', 'default'];
+            command = ['grunt.cmd', 'default'];
             balUtil.spawn(command, {
                 cwd: rootPath,
                 output: true
@@ -89,7 +102,7 @@ docpadConfig = {
             return this;
         },
         docpadLoaded: function(opts, next){
-            var command = ['grunt', 'generate-team-members'],
+            var command = ['grunt.cmd', 'generate-team-members'],
                 balUtil = require('bal-util'),
                 docpad = this.docpad,
                 rootPath = docpad.config.rootPath;
@@ -98,6 +111,26 @@ docpadConfig = {
                 cwd: rootPath,
                 output: true
             },next);
+        }
+    },
+    collections: {
+        pages: function() {
+            return this.getCollection('html').findAllLive({
+                isPage: true
+            }, [
+                {
+                    filename: 1
+                }
+            ]);
+        },
+        posts: function() {
+            return this.getCollection('html').findAllLive({
+                relativeOutDirPath: 'posts'
+            }, [
+                {
+                    created: -1
+                }
+            ]);
         }
     }
 };
