@@ -452,7 +452,7 @@ body.dir-rtl #admin-menu-wrapper {
 }
 
 #backtotop {
-    background: url(/sites/all/modules/contrib/back_to_top/backtotop.png) no-repeat center center;
+    background: url(/icons/backtotop.png) no-repeat center center;
     bottom: 20px;
     cursor: pointer;
     display: none;
@@ -2231,7 +2231,7 @@ div.tabs ul.primary {
 }
 
 #block-search-form .form-text {
-    background: url('/sites/all/themes/sasson/tikal/images/search-icon.png') no-repeat 143px 2px #4b4b4b;
+    background: url('/icons/search-icon.png') no-repeat 143px 2px #4b4b4b;
     border: 0;
     color: #a4a4a4;
     padding: 3px 30px 4px 9px;
@@ -2521,7 +2521,7 @@ div.tabs ul.primary {
 }
 
 .join-the-team #webform-component-click-to-add-your-cv label {
-    background: url('/sites/all/themes/sasson/tikal/images/bb.jpg') 43px 4px no-repeat #a0a0a0;
+    background: url('/icons/bb.jpg') 43px 4px no-repeat #a0a0a0;
     position: relative;
     padding: 5px 0px 0px 70px;
     font-weight: 300;
@@ -2652,7 +2652,7 @@ div.tabs ul.primary {
 }
 
 #block-menu-menu-external-links ul.menu a {
-    background: url('/sites/all/themes/sasson/tikal/images/icons.png') no-repeat;
+    background: url('/icons/icons.png') no-repeat;
     font-size: 0px;
     padding: 14px;
 }
@@ -3372,7 +3372,7 @@ div.tabs ul.primary {
 }
 
 .section-about .featured-background {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-gray.jpg') repeat;
+    background: url('/images/theme/tiled-bg-gray.jpg') repeat;
 }
 
 .section-about .featured-background #featured {
@@ -4548,11 +4548,11 @@ div.tabs ul.primary {
 }
 
 .section-solutions .featured-background {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-blue.jpg') repeat;
+    background: url('/images/theme/tiled-bg-blue.jpg') repeat;
 }
 
 .section-solutions .featured-background #featured {
-    background: url('/sites/all/themes/sasson/tikal/images/featured/solutions.jpg') no-repeat center 0;
+    background: url('images/featured/solutions.jpg') no-repeat center 0;
 }
 
 .section-solutions .featured-background #featured #page-title {
@@ -5423,7 +5423,7 @@ div.tabs ul.primary {
 }
 
 .section-contact .featured-background {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-gray.jpg') repeat;
+    background: url('/images/theme/tiled-bg-gray.jpg') repeat;
 }
 
 .section-contact .featured-background #featured {
@@ -5693,7 +5693,7 @@ div.tabs ul.primary {
 }
 
 .page-taxonomy #featured, .section-search #featured, .section-latest-articles #featured {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-orange.jpg') repeat;
+    background: url('/images/theme/tiled-bg-orange.jpg') repeat;
 }
 
 .page-taxonomy .section_title, .section-search .section_title, .section-latest-articles .section_title {
@@ -5742,7 +5742,7 @@ div.tabs ul.primary {
 }
 
 .section-alm .featured-background, .node-type-article.section-alm .featured-background {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-red.jpg') repeat;
+    background: url('/images/theme/tiled-bg-red.jpg') repeat;
 }
 
 .section-alm .featured-background #featured, .node-type-article.section-alm .featured-background #featured {
@@ -5754,7 +5754,7 @@ div.tabs ul.primary {
 }
 
 .section-java .featured-background, .node-type-article.section-java .featured-background {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-purple.jpg') repeat;
+    background: url('/images/theme/tiled-bg-purple.jpg') repeat;
 }
 
 .section-java .featured-background #featured, .node-type-article.section-java .featured-background #featured {
@@ -5766,7 +5766,7 @@ div.tabs ul.primary {
 }
 
 .section-js .featured-background, .node-type-article.section-js .featured-background {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-blue.jpg') repeat;
+    background: url('/images/theme/tiled-bg-blue.jpg') repeat;
 }
 
 .section-js .featured-background #featured, .node-type-article.section-js .featured-background #featured {
@@ -5778,7 +5778,7 @@ div.tabs ul.primary {
 }
 
 .section-net .featured-background, .node-type-article.section-net .featured-background {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-orange2.jpg') repeat;
+    background: url('/images/theme/tiled-bg-orange2.jpg') repeat;
 }
 
 .section-net .featured-background #featured, .node-type-article.section-net .featured-background #featured {
@@ -5790,7 +5790,7 @@ div.tabs ul.primary {
 }
 
 .section-ror .featured-background, .node-type-article.section-ror .featured-background {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-gray.jpg') repeat;
+    background: url('/images/theme/tiled-bg-gray.jpg') repeat;
 }
 
 .section-ror .featured-background #featured, .node-type-article.section-ror .featured-background #featured {
@@ -5873,7 +5873,7 @@ div.tabs ul.primary {
 .view-article .comments, .view-article .views-field-comment-count a {
     float: left;
     width: 110px;
-    background: url('/sites/all/themes/sasson/tikal/images/comments-icon.png') no-repeat;
+    background: url('/icons/comments-icon.png') no-repeat;
     padding-left: 25px;
     font-weight: 600;
     color: #e18403;
@@ -5990,7 +5990,7 @@ div.tabs ul.primary {
 }
 
 .st_googleplus_hcount .stButton .googleplus {
-    background: url('/sites/all/themes/sasson/tikal/images/googleplus.png') no-repeat;
+    background: url('/icons/googleplus.png') no-repeat;
     font-size: 0;
     padding: 4px 19px;
     position: absolute;
@@ -6123,7 +6123,7 @@ div.tabs ul.primary {
 }
 
 #block-views-our-team-team-domain-pages .back {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-gray.jpg') repeat;
+    background: url('/images/theme/tiled-bg-gray.jpg') repeat;
     color: white;
     width: 136px;
     height: 183px;
@@ -6284,7 +6284,7 @@ div.tabs ul.primary {
 }
 
 .node-type-article .featured-background {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-orange.jpg') repeat;
+    background: url('/images/theme/tiled-bg-orange.jpg') repeat;
 }
 
 .node-type-article .featured-background #featured {
@@ -6876,7 +6876,7 @@ body[class*="admin"] .node-article .by-and-tags {
 }
 
 .node-type-offering .featured-background {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-blue.jpg') repeat;
+    background: url('/images/theme/tiled-bg-blue.jpg') repeat;
 }
 
 .node-type-offering .featured-background #featured {
@@ -7119,7 +7119,7 @@ body[class*="admin"] .node-article .by-and-tags {
 }
 
 .section-profile.section-js #featured {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-blue.jpg') repeat;
+    background: url('/images/theme/tiled-bg-blue.jpg') repeat;
 }
 
 .section-profile.section-net #featured {
@@ -7356,15 +7356,15 @@ body[class*="admin"] .node-article .by-and-tags {
 }
 
 #block-views-follow-user-block .views-field-field-follow-on a[class*="facebook."] {
-    background: url('/sites/all/themes/sasson/tikal/images/follow_facebook_icon.png') no-repeat;
+    background: url('/icons/follow_facebook_icon.png') no-repeat;
 }
 
 #block-views-follow-user-block .views-field-field-follow-on a[class*="twitter."] {
-    background: url('/sites/all/themes/sasson/tikal/images/follow_twiter_icon.png') no-repeat;
+    background: url('/icons/follow_twiter_icon.png') no-repeat;
 }
 
 #block-views-follow-user-block .views-field-field-follow-on a[class*="linkedin."] {
-    background: url('/sites/all/themes/sasson/tikal/images/linkedin_icon.png') no-repeat;
+    background: url('/icons/linkedin_icon.png') no-repeat;
 }
 
 #block-views-download-my-cv-block {
@@ -7372,7 +7372,7 @@ body[class*="admin"] .node-article .by-and-tags {
 }
 
 #block-views-download-my-cv-block .view-download-my-cv a {
-    background: url('/sites/all/themes/sasson/tikal/images/my_cv_icon.png') 25px 17px no-repeat #e18403;
+    background: url('/icons/my_cv_icon.png') 25px 17px no-repeat #e18403;
     color: white;
     font-size: 23px;
     width: 100%;
@@ -7437,7 +7437,7 @@ body[class*="admin"] .node-article .by-and-tags {
 }
 
 .not-logged-in.section-user #page {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-orange.jpg') repeat;
+    background: url('/images/theme/tiled-bg-orange.jpg') repeat;
     clear: both;
     position: static;
     width: 100%;
@@ -7742,7 +7742,7 @@ body[class*="admin"] .node-article .by-and-tags {
 
 .section-hebrew .featured-background {
     text-align: right;
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-gray.jpg') repeat;
+    background: url('/images/theme/tiled-bg-gray.jpg') repeat;
 }
 
 .section-hebrew .featured-background #featured {
@@ -8459,7 +8459,7 @@ time {
 }
 
 time .day {
-    background: url('/sites/all/themes/sasson/tikal/images/date-icon.png') no-repeat;
+    background: url('/icons/date-icon.png') no-repeat;
     color: #929292;
     float: left;
     margin: -1px 10px 0px 0px;
@@ -8484,7 +8484,7 @@ ul.menu li {
 }
 
 #backtotop {
-    background: url('/sites/all/themes/sasson/tikal/images/back_to_top.png') 18px 13px no-repeat #3c3c3c;
+    background: url('/icons/back_to_top.png') 18px 13px no-repeat #3c3c3c;
     border: 0;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
