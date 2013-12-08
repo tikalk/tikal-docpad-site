@@ -74,7 +74,11 @@
                 </div><!-- /.content -->
             </div><!-- /.block -->
 
-
+            <div id="block-views-employee-skills-block" class="block block-views block-odd">
+                <div class="content">
+                    <%- @partial('skills',@) %>
+                </div><!-- /.content -->
+            </div><!-- /.block -->
 
             <section id="block-views-article-author" class="block block-views block-odd">
                 <h2 class="block-title">LATEST ARTICLES</h2>
@@ -83,13 +87,6 @@
                 <!-- /.content -->
             </section>
 
-
-
-            <div id="block-views-employee-skills-block" class="block block-views block-odd">
-                <div class="content">
-                    <%- @partial('skills',@) %>
-                </div><!-- /.content -->
-            </div><!-- /.block -->
         </div>
     </div><!-- /#main -->
     <aside id="sidebar-second" class="sidebar" role="complementary">

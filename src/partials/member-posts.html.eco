@@ -5,8 +5,12 @@
         <div class="view-content">
             <div class="view-content-limit">
                 <div class="view-content-limit-content">
-                    <% for post in @getCollection("posts").findAllLive({author: @document.memberPath}).toJSON(): %>
-                    <div class="views-row views-row-1 views-row-odd views-row-first">
+                    <% row = 0 %>
+                    <% posts = @getCollection("posts").findAllLive({author: @document.memberPath}).toJSON() %>
+                    <% postCount = posts.length %>
+                    <% for post in posts: %>
+                    <% row = row + 1 %>
+                    <div class="views-row views-row-<%= row %> views-row-<%= @getEvenOdd(row) %> <%= @getFirstLastRowClass(row, postCount) %>">
 
                         <div class="views-field views-field-title">
                             <span class="field-content">

@@ -51,6 +51,22 @@ docpadConfig = {
                 url = '/category/tags/' + tag;
             }
             return url;
+        },
+        getEvenOdd: function(n) {
+            if(n%2) {
+                return 'odd';
+            } else {
+                return 'even';
+            }
+        },
+        getFirstLastRowClass: function(row, len) {
+            var val = '';
+            if(row == 1) {
+                val = 'views-row-first';
+            } else if (row == len) {
+                val = 'views-row-last';
+            }
+            return val;
         }
     },
     events: {
