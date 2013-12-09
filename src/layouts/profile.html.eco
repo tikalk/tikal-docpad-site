@@ -46,7 +46,7 @@
     <% member = @getTeamMember(@document.memberPath) %>
     <%- @partial('head-inner', @) %>
 </head>
-<body class="html not-front not-logged-in one-sidebar sidebar-second page-user page-user- page-user-87 all-pages section-profile with-navigation with-subnav dir-ltr page-orenf section-js" >
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-user page-user- page-user-87 all-pages section-profile with-navigation with-subnav dir-ltr page-orenf section-<%= member.group %>" >
 <!--[if lte IE 7 ]>
 <p class='chromeframe'>Your browser is <em>ancient!</em> <a href='http://browsehappy.com/'>Upgrade to a different browser</a> or <a href='http://www.google.com/chromeframe/?redirect=true'>install Google Chrome Frame</a> to experience this site.</p>
 <![endif]-->
