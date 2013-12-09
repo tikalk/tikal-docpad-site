@@ -2785,7 +2785,7 @@ div.tabs ul.primary {
 }
 
 .front #block-views-slideshow-block .views-slideshow-controls-bottom .views_slideshow_controls_text_next a {
-    background: url('/sites/all/themes/sasson/tikal/images/slideshow-next.png') no-repeat 0px 0px;
+    background: url('/icons/slideshow-next.png') no-repeat 0px 0px;
     display: inline-block;
     width: 38px;
     height: 60px;
@@ -3055,7 +3055,7 @@ div.tabs ul.primary {
 }
 
 #block-tikal-meetup-meetup-article-pages-events .meetup-logo, #block-tikal-meetup-meetup-domain-pages-events .meetup-logo {
-    background: url('/sites/all/themes/sasson/tikal/images/meetup-logo.png') right top no-repeat;
+    background: url('/icons/meetup-logo.png') right top no-repeat;
     background-size: 100%;
     width: 53px;
     height: 41px;
@@ -3129,7 +3129,7 @@ div.tabs ul.primary {
     -moz-box-shadow: 0 0 13px -4px #a3a3a3;
     -webkit-box-shadow: 0 0 13px -4px #a3a3a3;
     box-shadow: 0 0 13px -4px #a3a3a3;
-    background: url('/sites/all/themes/sasson/tikal/images/quick-contact-bg.png');
+    background: url('/images/theme/quick-contact-bg.png');
     height: 222px;
     margin: 0px 15px 0px 10px;
     padding: 0px 10px 0px 15px;
@@ -3376,7 +3376,7 @@ div.tabs ul.primary {
 }
 
 .section-about .featured-background #featured {
-    background: url('/sites/all/themes/sasson/tikal/images/featured/about.jpg') no-repeat center 0;
+    background: url('/images/featured/featured.about.jpg') no-repeat center 0;
 }
 
 .section-about .featured-background #featured #page-title {
@@ -3402,7 +3402,7 @@ div.tabs ul.primary {
     padding-left: 17px;
     border: 1px solid #cbcbcb;
     border-bottom: 0;
-    background: url('/sites/all/themes/sasson/tikal/images/background-orange.jpg') repeat-x bottom white;
+    background: url('/images/theme/background-orange.jpg') repeat-x bottom white;
 }
 
 .region-sidebar-first .block-menu .block-title {
@@ -3640,7 +3640,7 @@ div.tabs ul.primary {
 }
 
 .fields-in-our-core-values .diagonal-right, .field_our_values .diagonal-right {
-    background: url('/sites/all/themes/sasson/tikal/images/diagonal-image-right.png') no-repeat 0 -11px;
+    background: url('/images/theme/diagonal-image-right.png') no-repeat 0 -11px;
     float: right;
     height: 80px;
     width: 18px;
@@ -3648,7 +3648,7 @@ div.tabs ul.primary {
 }
 
 .fields-in-our-core-values .diagonal-left, .field_our_values .diagonal-left {
-    background: url('/sites/all/themes/sasson/tikal/images/diagonal-image.png') no-repeat 0px 0px;
+    background: url('/images/theme/diagonal-image.png') no-repeat 0px 0px;
     float: left;
     height: 80px;
     width: 18px;
@@ -3883,7 +3883,7 @@ div.tabs ul.primary {
 }
 
 .field-name-field-our-consultancy-fields .container-inline, .field-name-field-our-support-services .container-inline, .field-name-field-working-at-tikal .container-inline {
-    background: url('/sites/all/themes/sasson/tikal/images/big-icons/icon-archiecture.png') no-repeat;
+    background: url('/icons/big-icons/icon-archiecture.png') no-repeat;
     width: 142px;
     padding-top: 140px;
     float: left;
@@ -3923,7 +3923,7 @@ div.tabs ul.primary {
 }
 
 .field-name-field-we-provide .container-inline, .field-name-field-the-tikal-alternative .container-inline {
-    background: url('/sites/all/themes/sasson/tikal/images/big-icons/icon-training-and-courses.png') no-repeat;
+    background: url('/icons/big-icons/icon-training-and-courses.png') no-repeat;
     width: 90px;
     padding-top: 70px;
     float: left;
@@ -3969,19 +3969,19 @@ div.tabs ul.primary {
 }
 
 .carousel-vertical .jcarousel-prev {
-    background: url('/sites/all/themes/sasson/tikal/images/arrow-up.png') no-repeat;
+    background: url('/icons/arrow-up.png') no-repeat;
 }
 
 .carousel-vertical .jcarousel-next {
-    background: url('/sites/all/themes/sasson/tikal/images/arrow-down.png') no-repeat;
+    background: url('/icons/arrow-down.png') no-repeat;
 }
 
 .carousel-vertical .jcarousel-has-prev:hover {
-    background: url('/sites/all/themes/sasson/tikal/images/arrow-up-hover.png') no-repeat;
+    background: url('/icons/arrow-up-hover.png') no-repeat;
 }
 
 .carousel-vertical .jcarousel-has-next:hover {
-    background: url('/sites/all/themes/sasson/tikal/images/arrow-down-hover.png') no-repeat;
+    background: url('/icons/arrow-down-hover.png') no-repeat;
 }
 
 .carousel-vertical .hidden-shadow {
@@ -4030,7 +4030,7 @@ div.tabs ul.primary {
 }
 
 .section-careers #featured {
-    background: url('/sites/all/themes/sasson/tikal/images/featured/careers.jpg') repeat center 0;
+    background: url('/images/featured/careers.jpg') repeat center 0;
 }
 
 .section-careers #page-title {
@@ -4060,7 +4060,7 @@ div.tabs ul.primary {
 }
 
 #block-menu-menu-careers {
-    background-image: url('/sites/all/themes/sasson/tikal/images/background-blue.jpg');
+    background-image: url('/images/theme/background-blue.jpg');
 }
 
 #block-menu-menu-careers .block-title {
@@ -7107,15 +7107,15 @@ body[class*="admin"] .node-article .by-and-tags {
 }
 
 .section-profile #featured {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-orange.jpg') repeat;
+    background: url('/images/theme/tiled-bg-orange.jpg') repeat;
 }
 
 .section-profile.section-alm #featured {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-red.jpg') repeat;
+    background: url('/images/theme/tiled-bg-red.jpg') repeat;
 }
 
 .section-profile.section-java #featured {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-purple.jpg') repeat;
+    background: url('/images/theme/tiled-bg-purple.jpg') repeat;
 }
 
 .section-profile.section-js #featured {
@@ -7123,11 +7123,11 @@ body[class*="admin"] .node-article .by-and-tags {
 }
 
 .section-profile.section-net #featured {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-orange2.jpg') repeat;
+    background: url('/images/theme/tiled-bg-orange2.jpg') repeat;
 }
 
 .section-profile.section-ror #featured {
-    background: url('/sites/all/themes/sasson/tikal/images/tiled-bg-gray.jpg') repeat;
+    background: url('/images/theme/tiled-bg-gray.jpg') repeat;
 }
 
 .section-profile .view-author {
