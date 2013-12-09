@@ -15,6 +15,7 @@
 		"linkedin": "lai",
 		"name": "Adi Baron",
 		"role": "Java and JS Architect",
+        "group": "java",
 		"type": "employee",
 		"website": "http://tikalk.com/java/adi",
 		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience."
@@ -35,6 +36,7 @@
 		"linkedin": "lai",
 		"name": "Andrew Skiba",
 		"role": "Java Architect",
+        "group": "java",
 		"type": "employee",
 		"website": "http://tikalk.com/java/andrew",
 		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience."
@@ -55,6 +57,7 @@
 		"linkedin": "lai",
 		"name": "Assaf Gannon",
 		"role": "Java and JS Architect",
+        "group": "js",
 		"type": "employee",
 		"website": "http://tikalk.com/js/assafg",
 		"testimonial": "I joined Tikal 9 years ago, I think it's a great place from both professional and personal aspects. At Tikal I am always using cutting edge technologies, with Tikal's system, website and activities i can easily contribute and absorb knowledge and experience."
@@ -74,7 +77,8 @@
 		}, 
 		"linkedin": "lai", 
 		"highlighted": false, 
-		"role": "RoR Architect", 
+		"role": "RoR Architect",
+        "group": "ror",
 		"active": true, 
 		"type": "employee", 
 		"email": "sample@person.com"
@@ -94,7 +98,8 @@
 		}, 
 		"linkedin": "lai", 
 		"highlighted": true, 
-		"role": "ALM Architect", 
+		"role": "ALM Architect",
+        "group": "alm",
 		"layout": "profile", 
 		"type": "employee", 
 		"email": "sample@person.com"
@@ -114,7 +119,8 @@
 		}, 
 		"linkedin": "lai", 
 		"highlighted": false, 
-		"role": "Python and Flex Developer", 
+		"role": "Python and Flex Developer",
+        "group": "incubator",
 		"active": true, 
 		"type": "employee", 
 		"email": "sample@person.com"
@@ -134,7 +140,8 @@
 		}, 
 		"linkedin": "lai", 
 		"highlighted": true, 
-		"role": "Founder and CEO", 
+		"role": "Founder and CEO",
+        "group": "java",
 		"active": true, 
 		"type": "employee", 
 		"email": "sample@person.com"
@@ -154,7 +161,8 @@
 		}, 
 		"linkedin": "lai", 
 		"highlighted": true, 
-		"role": "ALM Architect", 
+		"role": "ALM Architect",
+        "group": "alm",
 		"active": true, 
 		"type": "employee", 
 		"email": "sample@person.com"
@@ -174,7 +182,8 @@
 		}, 
 		"linkedin": "lai", 
 		"highlighted": true, 
-		"role": ".NET Architect", 
+		"role": ".NET Architect",
+        "group": "net",
 		"active": true, 
 		"type": "employee", 
 		"email": "sample@person.com",
@@ -218,7 +227,8 @@
 		}, 
 		"linkedin": "lai", 
 		"highlighted": true, 
-		"role": "JS Engineer", 
+		"role": "JS Engineer",
+        "group": "js",
 		"active": true, 
 		"type": "employee", 
 		"email": "sample@person.com"
@@ -238,7 +248,8 @@
 		}, 
 		"linkedin": "lai", 
 		"highlighted": true, 
-		"role": "UI Architect", 
+		"role": "UI Architect",
+        "group": "js",
 		"active": true, 
 		"type": "employee", 
 		"email": "sample@person.com"
@@ -254,7 +265,8 @@
 		"linkedin": "lai", 
 		"email": "sample@person.com", 
 		"highlighted": true, 
-		"role": "Java Architect", 
+		"role": "Java Architect",
+        "group": "java",
 		"active": true, 
 		"type": "employee", 
 		"image": {
