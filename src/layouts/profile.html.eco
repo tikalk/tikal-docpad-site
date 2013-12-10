@@ -82,7 +82,10 @@
 
             <section id="block-views-article-author" class="block block-views block-odd">
                 <h2 class="block-title">LATEST ARTICLES</h2>
-                <%- @partial('member-posts',@) %>
+                <% @posts = @getCollection("posts").findAllLive({author: @document.memberPath}).toJSON() %>
+                <% @member = member %>
+
+                <%- @partial('blog-posts',@) %>
 
                 <!-- /.content -->
             </section>
