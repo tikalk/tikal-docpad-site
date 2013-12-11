@@ -1,0 +1,35 @@
+---
+layout: 'home'
+---
+
+<div class="section-latest-articles">
+    <div class="featured-background">
+        <div id="featured">
+            <div class="region-title-and-featured">
+                <div class="section_title">
+                    Posts tagged with:	<%= @document.title %>
+                </div>
+            </div><!-- /#region-title-and-featured -->
+        </div><!-- /#featured -->
+    </div><!-- /.featured-background -->
+
+    <div class="shadow-page"></div><!-- /.shadow-page -->
+
+    <div id="page">
+
+        <div id="main">
+            <div class="region region-content">
+
+                <% @posts = @getCollection("posts").findAll({tags: {$in: @document.variants}}).toJSON() %>
+
+                <%- @partial('blog-posts',@) %>
+
+            </div>
+
+            <!--aside-->
+
+
+        </div>
+    <!--aside-->
+    </div>
+</div>
