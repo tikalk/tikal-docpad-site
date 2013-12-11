@@ -44,12 +44,13 @@ docpadConfig = {
             return paragraphs[0] + '</p>';
         },
         getTagUrl: function (tag) {
-            var groups = ['ALM', 'JAVA', 'JS', '.NET', 'RoR'], url;
-            if(groups.indexOf(tag) > -1) {
-                url = '/'+tag;
-            } else {
-                url = '/category/tags/' + tag;
-            }
+//            var groups = ['ALM', 'JAVA', 'JS', '.NET', 'RoR'], url;
+//            if(groups.indexOf(tag) > -1) {
+//                url = '/'+tag;
+//            } else {
+//                url = '/tags/' + tag;
+//            }
+            url = '/tags/' + tag;
             return url;
         },
         getEvenOdd: function(n) {
@@ -118,7 +119,7 @@ docpadConfig = {
             return this;
         },
         docpadLoaded: function(opts, next){
-            var command = ['grunt.cmd', 'generate-team-members'],
+            var command = ['grunt.cmd', 'generate-content'],
                 balUtil = require('bal-util'),
                 docpad = this.docpad,
                 rootPath = docpad.config.rootPath;
