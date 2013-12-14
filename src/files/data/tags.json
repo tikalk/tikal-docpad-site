@@ -1,0 +1,14 @@
+{
+    "js": {
+        "variants": ["js", "JS"],
+        "posts": 3
+    },
+    "java": {
+        "variants": ["Java"],
+        "posts": 5
+    },
+    "jboss": {
+        "variants": ["JBoss"],
+        "posts": 2
+    }
+}

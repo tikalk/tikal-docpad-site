@@ -20,7 +20,7 @@ layout: 'home'
         <div id="main">
             <div class="region region-content">
 
-                <% @posts = @getCollection("posts").findAll({tags: {$in: @document.permutations}}).toJSON() %>
+                <% @posts = @getCollection("posts").findAll({tags: {$in: @document.variants}}).toJSON() %>
 
                 <%- @partial('blog-posts',@) %>
 
