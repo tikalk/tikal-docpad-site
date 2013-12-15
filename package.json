@@ -34,7 +34,8 @@
     "yamljs": "~0.1.4"
   },
   "devDependencies": {
-    "docpad-plugin-livereload": "~2.5.3"
+    "docpad-plugin-livereload": "~2.5.3",
+    "yaml-front-matter": "~2.1.11"
   },
   "main": "node_modules/docpad/bin/docpad-server"
 }
