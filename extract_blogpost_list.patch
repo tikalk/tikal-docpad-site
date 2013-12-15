@@ -1,0 +1,180 @@
+Index: src/layouts/tag.html.eco
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/layouts/tag.html.eco	(revision )
++++ src/layouts/tag.html.eco	(revision )
+@@ -0,0 +1,38 @@
++---
++layout: 'home'
++---
++
++
++<div class="featured-background">
++    <div id="featured"
++            >
++        <div class="region-title-and-featured">
++            <div class="section_title">
++                Posts tagged with:	<%= @document.title %>	</div>
++        </div><!-- /#region-title-and-featured -->
++    </div><!-- /#featured -->
++</div><!-- /.featured-background -->
++<div class="shadow-page"></div><!-- /.shadow-page -->
++
++<div id="page">
++
++<div id="main">
++    <div class="region region-content">
++
++        <section id="block-views-article-author" class="block block-views block-odd">
++            <h2 class="block-title">LATEST ARTICLES</h2>
++            <% member = @getTeamMember(@post.author) %>
++            <%- @partial('member-posts',@) %>
++
++            <!-- /.content -->
++        </section>
++
++    </div>
++
++
++
++
++
++</div>
++<!--aside-->
++</div>
+\ No newline at end of file
+Index: lib/generators/postTags.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/generators/postTags.js	(revision )
++++ lib/generators/postTags.js	(revision )
+@@ -0,0 +1,29 @@
++/**
++ * Created with JetBrains WebStorm.
++ * User: assaf
++ * Date: 11/18/13
++ * Time: 8:08 AM
++ * To change this template use File | Settings | File Templates.
++ */
++
++var ejs = require('ejs'),
++    yaml = require('yamljs');
++
++module.exports = function(grunt){
++    grunt.log.debug('generating post tags list');
++    //var tmpl = grunt.file.read('./lib/templates/team-member.ejs');
++
++//    var team = JSON.parse(grunt.file.read('./src/files/data/team.json'));
++//    for(var m in team){
++//        var member = team[m];
++//        member.title = member.name;
++//        member.memberPath = m;
++//        member.layout = 'profile';
++//        var out = '---\n'+yaml.stringify(member)+'---';
++//        //var out = ejs.render(tmpl, {title: member.name, memberPath: member});
++//        grunt.log.debug(out);
++//        grunt.file.write('./src/documents/'+m+'/index.html', out);
++//
++//    }
++
++}
+\ No newline at end of file
+Index: src/partials/blog-posts.html.eco
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/partials/blog-posts.html.eco	(revision )
++++ src/partials/blog-posts.html.eco	(revision )
+@@ -0,0 +1,86 @@
++<% row = 0 %>
++<% postCount = @posts.length %>
++<% for post in @posts: %>
++<% row = row + 1 %>
++<% member = @getTeamMember(post.author) %>
++
++<div class="views-row views-row-<%= row %> views-row-<%= @getEvenOdd(row) %> <%= @getFirstLastRowClass(row, postCount) %>">
++
++<div class="views-field views-field-title">
++                            <span class="field-content">
++                                <a href="<%= post.url %>"><%= post.title %></a>
++                            </span>
++</div>
++
++<div class="views-field views-field-uid">
++    <span class="views-label views-label-uid">by</span>
++                            <span class="field-content">
++                                <a href="<%= @document.memberPath %>" class="active"><%= member.name %></a>
++                            </span>
++</div>
++
++<div class="views-field views-field-nothing">
++    <span class="views-label views-label-nothing">tags: </span>
++                            <span class="field-content">
++                                <div class="tags">
++                                    <% for tag in post.tags: %>
++
++                                    <a href="<%= @getTagUrl(tag) %>" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype=""><%= tag %></a>
++
++                                    <% end %>
++                                </div>
++                            </span>
++</div>
++
++<div class="views-field views-field-nothing-1">
++    <span class="views-label views-label-nothing-1">border: </span>
++    <span class="field-content"></span>
++</div>
++
++<div class="views-field views-field-created">
++                            <span class="field-content">
++                                <time pubdate="" datetime="1384034400">
++                                    <div class="day">
++                                        <%= post.created.day %>	</div>
++                                    <%= post.created.month+"."+post.created.year %>
++                                </time>
++                            </span>
++</div>
++
++<div class="views-field views-field-comment-count">
++                            <span class="field-content">
++                                <a class="comments" href="<%= post.url %>#comments">
++                                    <div url="<%= post.url %>" class="count-comment">1</div>
++                                    <div class="label-comment">comments</div>
++                                </a>
++                            </span>
++</div>
++
++<div class="views-field views-field-sharethis">
++                             <span class="field-content">
++                                 <div class="sharethis-wrapper">
++                                     <span st_url="http://tikalk.com<%= post.url %>" st_title="<%= post.title %>" class="st_linkedin_hcount" displaytext="linkedin"></span>
++                                     <span st_url="http://tikalk.com<%= post.url %>" st_title="<%= post.title %>" class="st_twitter_hcount" displaytext="twitter"></span>
++                                     <span st_url="http://tikalk.com<%= post.url %>" st_title="<%= post.title %>" class="st_googleplus_hcount" displaytext="googleplus"></span>
++                                     <span st_url="http://tikalk.com<%= post.url %>" st_title="<%= post.title %>" class="st_fblike_hcount" displaytext="fblike"></span>
++                                     <script type='text/javascript'>var switchTo5x = true;</script>
++                                     <script type='text/javascript' src='http://w.sharethis.com/button/buttons.js'></script>
++                                     <script type='text/javascript'>stLight.options({"publisher":"dr-43c3dc3e-136a-41bc-757c-8e096a2488a7"});</script>
++                                 </div>
++                            </span>
++</div>
++
++<div class="views-field views-field-body">
++    <div class="field-content">
++        <%- @getFirstParagraph(post.content) %>
++    </div>
++</div>
++
++<div class="views-field views-field-view-node">
++                            <span class="field-content">
++                                <a href="<%= post.url %>">Read More »</a>
++                            </span>
++</div>
++</div>
++
++<% end %>
+\ No newline at end of file
