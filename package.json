@@ -14,7 +14,7 @@
     "node": "0.8.x",
     "npm": "1.1.x"
   },
-  "dependencies": {
+    "dependencies": {
     "docpad": "~6.54.10",
     "docpad-plugin-coffeescript": "~2.2.3",
     "docpad-plugin-eco": "~2.0.2",
@@ -31,11 +31,12 @@
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-cssmin": "~0.7.0",
     "ejs": "~0.8.4",
-    "yamljs": "~0.1.4"
+    "yamljs": "~0.1.4",
+    "yaml-front-matter": "~2.1.11",
+    "docpad-plugin-marked": "~2.1.2"
   },
-  "devDependencies": {
-    "docpad-plugin-livereload": "~2.5.3",
-    "yaml-front-matter": "~2.1.11"
+    "devDependencies": {
+      "docpad-plugin-livereload": "~2.5.3"
   },
   "main": "node_modules/docpad/bin/docpad-server"
 }
