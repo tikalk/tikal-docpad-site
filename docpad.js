@@ -44,12 +44,6 @@ docpadConfig = {
             return paragraphs[0] + '</p>';
         },
         getTagUrl: function (tag) {
-//            var groups = ['ALM', 'JAVA', 'JS', '.NET', 'RoR'], url;
-//            if(groups.indexOf(tag) > -1) {
-//                url = '/'+tag;
-//            } else {
-//                url = '/tags/' + tag;
-//            }
             url = '/tags/' + tag;
             return url;
         },
@@ -68,6 +62,22 @@ docpadConfig = {
                 val = 'views-row-last';
             }
             return val;
+        },
+        getMonth: function( d) {
+            var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                month, year, day;
+
+            day = this.getDay(d);
+            year = this.getYear(d);
+            month = (d - year*10000 - day) / 100;
+
+            return months[month-1];
+        },
+        getYear: function( d) {
+            return (d - (d % 10000)) / 10000;
+        },
+        getDay: function (d) {
+            return d % 100;
         }
     },
     events: {
@@ -147,7 +157,7 @@ docpadConfig = {
                 {
                     created: -1
                 }
-            ]);
+            ]).sortCollection();
         }
     }
 };

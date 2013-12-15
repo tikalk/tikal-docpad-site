@@ -47,8 +47,8 @@
                                     <span class="field-content">
                                         <time pubdate="" datetime="1384034400">
                                             <div class="day">
-                                                <%= post.created.day %>	</div>
-                                            <%= post.created.month+"."+post.created.year %>
+                                                <%= @getDay(post.created) %>	</div>
+                                            <%= @getMonth(post.created) + '.' + @getYear(post.created) %>
                                         </time>
                                     </span>
         </div>
