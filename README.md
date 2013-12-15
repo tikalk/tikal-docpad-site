@@ -38,6 +38,29 @@ This fork adds [Grunt](http://gruntjs.com/) to show an example of taking the HTM
 1. Start hacking away by modifying the `src` directory
 
 
+##Creating a Blog Post
+First create an html or markdown file in the 'src/documents/posts' folder.
+
+The file has some meta data at the top, followed by your content.
+
+The meta data follows a yaml format as shown below:
+
+    ---
+    layout: "home"
+    title: "The Title of Your Post Goes Here"
+    created: 20110112
+    author: "js/gail"
+    tags: ['JS', 'backbone', 'marionette']
+    ---
+
+- The layout field must be "home".
+- The created date should be in the 'yyyymmdd' format.
+- The author should be the last 2 parameters of the url to your profile page.
+- Tags is an array of strings (*case insensitive* for your convenience.)
+- The top and bottom '---' lines are necessary.
+
+Your content comes after the bottom '---' line, in html or markdown. The content must begin with a paragraph, which will be used as a blurb on post list pages. The rest is your choice.
+
 ## License
 
 This skeleton is made ["public domain"](http://en.wikipedia.org/wiki/Public_domain) using the [Creative Commons Zero](http://creativecommons.org/publicdomain/zero/1.0/), as such before you publish your website you should place your desired license here and within the `LICENSE.md` file.
